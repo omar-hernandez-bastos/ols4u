@@ -1,19 +1,32 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
-  </div>
+  <v-app>
+    <v-content>
+      <router-view></router-view>
+    </v-content>
+  </v-app>
 </template>
 
+<script>
+export default {
+  name: "App",
+
+  components: {},
+
+  data: () => ({
+    //
+  })
+};
+</script>
+
 <style lang="stylus">
-#app
-  font-family Avenir, Helvetica, Arial, sans-serif
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-  text-align center
-  color #2c3e50
-  margin-top 60px
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&display=swap');
+
+.work-sans {
+  font-family: 'Work Sans', sans-serif !important;
+}
+
+html, body {
+  position: relative;
+  overflow-x: hidden;
+}
 </style>
