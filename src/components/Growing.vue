@@ -4,84 +4,51 @@
     :width="width"
     class="carta d-flex flex-column justify-space-around align-center"
   >
-    <v-card-title class="title-card">Tiempo Completo</v-card-title>
-    <div class="price ">$530</div>
-    <div class="list">
-      <v-row
-        align="center"
-        justify="center"
+    <v-card-title style="word-break: break-word" class=" title-card ">{{
+      $t("landing.p112")
+    }}</v-card-title>
+    <div class="price d-flex justify-center align-center flex-column">
+      <span
+        style="text-decoration:line-through; text-decoration-color:black; text-decoration-style: dashed"
+        class="display-1"
       >
-        <v-col
-          class="d-flex justify-center"
-          cols="12"
-        >
-          <img
-            width="33"
-            height="29"
-            class="mx-2"
-            src="../assets/pricing/checklist.svg"
-          />Lorem Ipsun
-        </v-col>
-        <v-col
-          class="d-flex justify-center"
-          cols="12"
-        >
-          <img
-            width="33"
-            height="29"
-            class="mx-2"
-            src="../assets/pricing/checklist.svg"
-          />Lorem Ipsun
-        </v-col>
-        <v-col
-          class="d-flex justify-center"
-          cols="12"
-        >
-          <img
-            width="33"
-            height="29"
-            class="mx-2"
-            src="../assets/pricing/uncheck.svg"
-          />Lorem Ipsun
-        </v-col>
-        <v-col
-          class="d-flex justify-center"
-          cols="12"
-        >
-          <img
-            width="33"
-            height="29"
-            class="mx-2"
-            src="../assets/pricing/uncheck.svg"
-          />Lorem Ipsun
-        </v-col>
-        <v-col
-          class="d-flex justify-center"
-          cols="12"
-        >
-          <img
-            width="33"
-            height="29"
-            class="mx-2"
-            src="../assets/pricing/uncheck.svg"
-          />Lorem Ipsun
-        </v-col>
-      </v-row>
+        {{ $t("landing.p113") }}</span
+      >
+      {{ $t("landing.p114") }}
+    </div>
+    <div class="list">
+      <v-container>
+        <v-row align="center" justify="center">
+          <v-col class="d-flex justify-center" cols="12">
+            {{ $t("landing.p115") }}
+          </v-col>
+          <v-col class="d-flex justify-center" cols="12">
+            {{ $t("landing.p116") }}
+          </v-col>
+          <v-col class="d-flex justify-center" cols="12">
+            {{ $t("landing.p117") }}
+          </v-col>
+          <v-col class="d-flex justify-center" cols="12">
+            {{ $t("landing.p118") }}
+          </v-col>
+          <v-col class="d-flex justify-center" cols="12">
+            {{ $t("landing.p119") }}
+          </v-col>
+        </v-row></v-container
+      >
     </div>
     <div class="boton my-12">
-      <v-btn
-        dark
-        rounded
-        x-large
-        color="primary"
-        class="text-capitalize"
-      >Inscribirse Hoy</v-btn>
+      <full-time></full-time>
     </div>
   </v-card>
 </template>
 
 <script>
+import FullTime from "./FullTime";
 export default {
+  components: {
+    FullTime
+  },
   props: {
     width: {
       type: String,

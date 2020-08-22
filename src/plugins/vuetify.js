@@ -9,13 +9,13 @@ export default new Vuetify({
         primary: "#f5740a",
         secondary: "#6c6e6b ",
         accent: "#183290",
-        error: "#F03E41",
+        error: "#ffffff",
         success: "#57AD68",
         warning: "#FFC72E",
         info: "#5576D6",
-        background: "#131419"
-      }
+        background: "#131419",
+      },
     },
-    light: true
-  }
+    light: true,
+  },
 });

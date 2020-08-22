@@ -7,7 +7,7 @@ export default {
     languages: {
       english: "EN",
       spanish: "ES",
-      portuguese: "PT"
+      portuguese: "PT",
     },
     home: "HOME",
     programs: "PROGRAMS",
@@ -16,13 +16,14 @@ export default {
     about: "ABOUT US",
     contact: "CONTACT US",
     mainMessage: "Learning English,  Made Easy!",
-    button: "CHECK OUR PROGRAMS HERE!"
+    button: "CHECK OUR PROGRAMS HERE!",
+    enrollment: "ENROLLMENT",
   },
   join: {
     title: "Join Our Full-Time Program!",
     parrafo: `<span class="font-weight-bold primary--text">F1 Student Visas</span> and I-20s for <span class="font-weight-bold primary--text">International Students</span><br> Easily<span class= "font-weight-bold gray--text" > enroll</span> with our <span class= "font-weight-bold primary--text" > step-by-step guide</span>
   Start <span class= "font-weight-bold primary--text">studying English in Orlando</span> today!`,
-    parrafo2: "Full-Time Program info here"
+    parrafo2: "Full-Time Program info here",
   },
   discover: {
     title1: "FULL-TIME PROGRAM",
@@ -45,13 +46,13 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
     `,
     button: "LEARN MORE",
 
-    headline: "Discover your perfect English program"
+    headline: "Discover your perfect English program",
   },
   aboutUs: {
     title1: "About Us",
     title2: "Our Mission",
     p2:
-      "Is to provide the best English language learning experience available to promote fast comprehension and usage by employing dynamic, student-centered, second language acquisition programs, materials and methodology as well as by maintaining a staff of well-trained, highly-motivated, ESL teachers whose goal is to help their students gain confidence and achieve success speaking English."
+      "Is to provide the best English language learning experience available to promote fast comprehension and usage by employing dynamic, student-centered, second language acquisition programs, materials and methodology as well as by maintaining a staff of well-trained, highly-motivated, ESL teachers whose goal is to help their students gain confidence and achieve success speaking English.",
   },
   followUs: "Follow us on social media:",
   footer: {
@@ -62,7 +63,8 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
     contact: "Contact Us",
     galleries: "Galleries",
     emailus: "Email Us",
-    callus: "Call Us"
+    callus: "Call Us",
+    enrollment: "Enrollment",
   },
   programs: {
     fulltime: "Full-Time Program",
@@ -153,30 +155,30 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
       {
         registrationDates: "January 6 - March 13, 2020",
         startDate: "March 23, 2020",
-        endDate: "May 29, 2020"
+        endDate: "May 29, 2020",
       },
       {
         registrationDates: "January 6 - June 29, 2020",
         startDate: "June 1, 2020",
-        endDate: "August 7, 2020"
+        endDate: "August 7, 2020",
       },
       {
         registrationDates: "January 6 - August 7, 2020",
         startDate: "August 10, 2020",
-        endDate: "October 9, 2020"
+        endDate: "October 9, 2020",
       },
       {
         registrationDates: "January 6 - October 9, 2020",
         startDate: "October 13, 2020",
-        endDate: "December 18, 2020"
-      }
+        endDate: "December 18, 2020",
+      },
     ],
     enrollment: {
       enrollmentTitle: "2020 Enrollment Dates",
       term: "Term",
       registrationDates: "Registration Dates",
       startDate: "Start Date",
-      endDate: "End Date"
+      endDate: "End Date",
     },
     structure: {
       mainTitle: "Structure and Objectives",
@@ -195,7 +197,7 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
 
       </li>
       <li>Oral presentation </li>
-      <li>  And professional communication, which includes writing as well as speaking </li></ul>`
+      <li>  And professional communication, which includes writing as well as speaking </li></ul>`,
     },
     curriculum: {
       mainTitle: "Curriculum",
@@ -224,8 +226,8 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
       <li>Levels 9 – 10: Mosaic 1 & 2 Listening & Speaking Conversation Classes (10 Chapters per level)</li>
       <li>Extended Levels 1 & 2: Mosaic 1 & 2 Reading Conversation Classes (10 Chapters per level)</li>
         <li>Extended Levels 3 & 4: Mosaic 1 & 2 Writing Conversation Classes (10 Chapters per level)</li></ul>
-      `
-    }
+      `,
+    },
   },
   visas: {
     mainTitle: "Step-by-step F1 visa application guide",
@@ -291,7 +293,7 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
 </ol>
     `,
     contact: `We hope you found our step-by-step guide useful <br>
-Contact us with any additional questions!`
+Contact us with any additional questions!`,
   },
   about: {
     mainTitle: "About Us",
@@ -306,7 +308,7 @@ Contact us with any additional questions!`
     firma: "JULIANA PICCINATO",
     title2: "Faculty and Staff",
     p3:
-      "Out staff’s high academic credentials and typically extensive experience in education help us select our native-like speaker instructors. Their dedication, determination, and passion for teaching reflect in the progress of our student’s language speaking abilities."
+      "Out staff’s high academic credentials and typically extensive experience in education help us select our native-like speaker instructors. Their dedication, determination, and passion for teaching reflect in the progress of our student’s language speaking abilities.",
   },
   contact: {
     t1: "Contact us",
@@ -317,7 +319,7 @@ Contact us with any additional questions!`
     l4: "Additional Info",
     button1: "Submit",
     t2: "Contact Details",
-    button2: "Go Back"
+    button2: "Go Back",
   },
   galleries: {
     mainTitle: "New Year, New Look!",
@@ -349,6 +351,60 @@ We are pleased to announce the installation of 70-inch 4K SHARP AQUOS SMART BOAR
       "Work hard, play hard. At OLS you get to visit iconic locations in Orlando with your classmates!",
     celebrationsTitle: "Celebrations!",
     celebrationsP:
-      "Whether it’s Halloween, Thanksgiving, or Christmas, at OLS we like to celebrate it all!"
-  }
+      "Whether it’s Halloween, Thanksgiving, or Christmas, at OLS we like to celebrate it all!",
+  },
+  landing: {
+    t1: "Do you dare to learn English?",
+    t2:
+      "Join our select group of students here in Orlando FL, register and start working on you and your future ",
+    t3:
+      "Ols4u, Orlando FL, with more than 25 years of experience, high- level teachers, the best method and a modern infrastructure, all at your disposal",
+    t4: "JOIN US",
+    p1: "WHY ORLANDO LANGUAGE SCHOOL?",
+    p2: "Because our method is 100% guaranteed and adapts to you.",
+    p3:
+      "Our mission is to help you speak the English language safely and in a short time.",
+    p4: "Learning for you:",
+    p5:
+      "We provide you with the best learning experience through the use of dynamic, student-centered programs, materials and methodology. We recently invested to offer you one of the most modern infrastructures in South Florida.",
+    p6: "Experience:",
+    p7:
+      "We have over 25 years of experience and a staff of high-level teachers and instructors, they will ensure the success of your adaptation to our method. Our teachers follow a student-centered, communicative approach to language teaching and learning. English ",
+    p8: "Accreditations:",
+    p9:
+      "OLs4U is authorized by the SEVP Student and Exchange Visitor Program to enroll international non-immigrant students who want to study English in Orlando.",
+    p10:
+      "Ols4u is accredited by the Commission on English Language Program Accreditation, CEA, it is the only specialized accrediting agency recognized by the Secretary of Education of the United States, its objective is to promote excellence in the field of teaching and administration English programs with the help of accreditation processes around the world. ",
+    p11:
+      "Do not miss this opportunity! Sign up this way and enjoy a special discount of 40%",
+    p12: "PART TIME",
+    p13: "$485 -40% OFF",
+    p14: "$291",
+    p15: "16.75 class hours per week",
+    p16: "67 hours of class per month",
+    p17: "Grammar and conversation books included: 1 game per level",
+    p18: "Flexible schedules",
+    p19: "Rate for 4 weeks",
+    p20:
+      "* Depending on the case and the profile of the student, the administration of OLS4U may apply a single additional fee of $ 50, at the time of registration and delivery of receipts.",
+    p112: "FULL TIME",
+    p113: "$530 -40% OFF",
+    p114: "$318",
+    p115: "18 hours of class per week",
+    p116: "72 hours of class per month",
+    p117: "Grammar and conversation books included: 1 game per level",
+    p118: "Flexible hours",
+    p119: "Rate for 4 weeks",
+    btn: "Sign up today",
+  },
+  success: {
+    t1: "Your payment has been successfully completed",
+    t2: "We will contact you shortly by e- mail.",
+    t3: "Go to Home",
+  },
+  rejected: {
+    t1: "Your payment could not be successfully processed",
+    t2: "please try again",
+    t3: "Try again",
+  },
 };

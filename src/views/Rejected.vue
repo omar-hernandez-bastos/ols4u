@@ -15,28 +15,27 @@
             md="6"
           >
             <div
-              class="hidden-md-and-up font-weight-bold white--text display-2"
+              class="hidden-md-and-up font-weight-bold white--text display-1"
             >
-              {{ $t("landing.t1") }}
+              {{ $t("rejected.t1") }}
             </div>
             <div
               class=" hidden-sm-and-down font-weight-bold white--text display-3"
             >
-              {{ $t("landing.t1") }}
+              {{ $t("rejected.t1") }}
             </div>
             <div
-              class=" hidden-md-and-up font-weight-bold mt-4 white--text subtitle-1"
+              class=" hidden-md-and-up font-weight-bold mt-4 white--text title"
             >
-              {{ $t("landing.t2") }}
+              {{ $t("rejected.t2") }}
             </div>
             <div
-              class=" hidden-sm-and-down font-weight-bold mt-4 white--text headline"
+              class=" hidden-sm-and-down font-weight-bold mt-4 white--text display-1"
             >
-              {{ $t("landing.t2") }}
+              {{ $t("rejected.t2") }}
             </div>
-
             <v-btn
-              @click="$vuetify.goTo('#why')"
+              @click="$router.push({ name: 'LandingPage' })"
               class="mt-12"
               x-large=""
               color="primary"
@@ -47,7 +46,7 @@
                 class="ml-n10 mr-4"
                 src="../assets/landing/comenzarbtn.svg"
               ></v-img>
-              {{ $t("landing.t4") }}
+              {{ $t("rejected.t3") }}
             </v-btn>
           </v-col>
           <v-col
@@ -57,29 +56,11 @@
             justify="center"
             align="end"
           >
-            <v-row>
-              <v-col class="d-flex child-flex" cols="4">
-                <v-img
-                  aspect-ratio="1"
-                  contain=""
-                  class="mx-auto"
-                  src="../assets/CEA-white.png"
-                ></v-img>
-              </v-col>
-              <v-col class="d-flex child-flex" cols="4">
-                <v-img
-                  aspect-ratio="1"
-                  contain=""
-                  class="mx-auto"
-                  src="../assets/landing/g1007.png"
-                ></v-img>
-              </v-col>
-              <v-col class="d-flex child-flex" cols="4">
-                <div class="display-4 font-weight-bold white--text">
-                  40% OFF
-                </div>
-              </v-col>
-            </v-row>
+            <v-img
+              class="mx-auto"
+              width="50%"
+              src="../assets/rejected.png"
+            ></v-img>
           </v-col>
         </v-row>
       </v-container>

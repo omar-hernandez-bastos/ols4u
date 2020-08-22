@@ -15,13 +15,7 @@
     </v-toolbar-title>
 
     <v-spacer></v-spacer>
-    <v-btn
-      text
-      class="font-weight-bold text-uppercase hidden-sm-and-down"
-      color="white"
-      to="/"
-      >{{ $t("header.home") }}</v-btn
-    >
+
     <v-btn
       text
       to="/programs"
@@ -29,41 +23,7 @@
       color="white"
       >{{ $t("header.programs") }}</v-btn
     >
-    <v-btn
-      text
-      to="/visas"
-      class="font-weight-bold text-uppercase hidden-sm-and-down"
-      color="white"
-      >{{ $t("header.visas") }}</v-btn
-    >
-    <v-btn
-      text
-      to="/galleries"
-      class="font-weight-bold text-uppercase hidden-sm-and-down"
-      color="white"
-      >{{ $t("header.galleries") }}</v-btn
-    >
-    <v-btn
-      text
-      to="/about"
-      class="font-weight-bold text-uppercase hidden-sm-and-down"
-      color="white"
-      >{{ $t("header.about") }}</v-btn
-    >
-    <v-btn
-      text
-      to="/enrollment"
-      class="font-weight-bold text-uppercase  hidden-sm-and-down"
-      color="white"
-      >{{ $t("header.enrollment") }}</v-btn
-    >
-    <v-btn
-      text
-      to="/contact"
-      class="font-weight-bold text-uppercase hidden-sm-and-down"
-      color="white"
-      >{{ $t("header.contact") }}</v-btn
-    >
+
     <v-spacer></v-spacer>
     <v-select
       background-color="primary"

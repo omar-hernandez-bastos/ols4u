@@ -7,7 +7,7 @@ export default {
     languages: {
       english: "EN",
       spanish: "ES",
-      portuguese: "PT"
+      portuguese: "PT",
     },
     home: "INÍCIO",
     programs: "PROGRAMAS",
@@ -15,13 +15,15 @@ export default {
     galleries: "GALERIAS",
     about: "QUEM SOMOS",
     contact: "CONTATE-NOS",
+
+    enrollment: "INSCRIÇÃO",
     mainMessage: "Aprendendo inglês, facilitado!",
-    button: "VERIFIQUE NOSSOS PROGRAMAS AQUI!"
+    button: "VERIFIQUE NOSSOS PROGRAMAS AQUI!",
   },
   join: {
     title: "Participe do nosso programa de tempo integral!",
     parrafo: `<span class =" font-weight-bold bold - text "> Vistos de estudante F1 </span> e I-20s para <span class =" font-weight-bold primary--text "> estudantes internacionais </span> <br> <span class = "font-weight-bold gray--text"> Inscreva-se </span> com o nosso <span class = "font-weight-bold gray--text"> passo a passo guia de etapas </span> Comece <span class = "font-weight-bold primary--text"> estudando inglês em Orlando </span> hoje! `,
-    parrafo2: "Informações sobre o programa de tempo integral aqui"
+    parrafo2: "Informações sobre o programa de tempo integral aqui",
   },
   discover: {
     title1: "PROGRAMA EM TEMPO INTEGRAL",
@@ -42,13 +44,13 @@ export default {
 
     `,
     button: "SAIBA MAIS",
-    headline: "Descubra o seu programa de inglês perfeito"
+    headline: "Descubra o seu programa de inglês perfeito",
   },
   aboutUs: {
     title1: "Sobre nós",
     title2: "Nossa missão",
     p2:
-      "É fornecer a melhor experiência de aprendizado de inglês disponível para promover o rápido entendimento e uso, empregando programas e materiais dinâmicos e centrados no aluno para a aquisição de um segundo idioma, além de manter uma equipe de professores de ESL bem treinados e altamente motivados, O objetivo é ajudar seus alunos a ganhar confiança e a falar inglês."
+      "É fornecer a melhor experiência de aprendizado de inglês disponível para promover o rápido entendimento e uso, empregando programas e materiais dinâmicos e centrados no aluno para a aquisição de um segundo idioma, além de manter uma equipe de professores de ESL bem treinados e altamente motivados, O objetivo é ajudar seus alunos a ganhar confiança e a falar inglês.",
   },
   followUs: "Siga-nos nas redes sociais:",
 
@@ -60,7 +62,9 @@ export default {
     contact: "Entre em contato",
     emailus: "Escreva-nos",
     galleries: "Galerias",
-    callus: "Ligue-nos"
+
+    enrollment: "inscrição",
+    callus: "Ligue-nos",
   },
   programs: {
     fulltime: "Programa a tempo inteiro",
@@ -153,30 +157,30 @@ Aulas ministradas na escola.</b><br>US $ 45 por hora de aula de manhã, tarde e 
       {
         registrationDates: "6 de janeiro a 13 de março de 2020",
         startDate: "23 de março de 2020",
-        endDate: "29 de maio de 2020"
+        endDate: "29 de maio de 2020",
       },
       {
         registrationDates: "6 de janeiro a 29 de junho de 2020",
         startDate: "1 de junho de 2020",
-        endDate: "7 de agosto de 2020"
+        endDate: "7 de agosto de 2020",
       },
       {
         registrationDates: "6 de janeiro a 7 de agosto de 2020",
         startDate: "10 de agosto de 2020",
-        endDate: "9 de outubro de 2020"
+        endDate: "9 de outubro de 2020",
       },
       {
         registrationDates: "6 de janeiro a 9 de outubro de 2020",
         startDate: "13 de outubro de 2020",
-        endDate: "18 de dezembro de 2020"
-      }
+        endDate: "18 de dezembro de 2020",
+      },
     ],
     enrollment: {
       enrollmentTitle: "Datas de inscrição para 2020",
       term: "Term",
       registrationDates: "Datas de registro",
       startDate: "Data de início",
-      endDate: "Data final"
+      endDate: "Data final",
     },
     structure: {
       mainTitle: "Estrutura e objetivos",
@@ -193,7 +197,7 @@ Os novos alunos são obrigados a fazer um teste de nivelamento para avaliar sua 
           <ul> <li> Interação individual e em grupo </li>
             <li> Pronúncia</li>
             <li> Apresentação oral </li>
-            <li> E comunicação profissional, que inclui escrever e falar </li> </ul>`
+            <li> E comunicação profissional, que inclui escrever e falar </li> </ul>`,
     },
     curriculum: {
       mainTitle: "Currículo",
@@ -206,8 +210,8 @@ Os novos alunos são obrigados a fazer um teste de nivelamento para avaliar sua 
         <liNíveis 3 a 8: vamos conversar sobre aulas de conversação (8 unidades por nível) </li>
       <li> Níveis 9 - 10: Mosaico 1 e 2 - Aulas de conversação e conversação (10 capítulos por nível) </li>
       <li> Níveis estendidos 1 e 2: aulas de conversação de leitura do mosaico 1 e 2 (10 capítulos por nível) </li>
-      <li> Níveis estendidos 3 e 4: aulas de conversação de escrita do mosaico 1 e 2 (10 capítulos por nível) </li> </ul>`
-    }
+      <li> Níveis estendidos 3 e 4: aulas de conversação de escrita do mosaico 1 e 2 (10 capítulos por nível) </li> </ul>`,
+    },
   },
   visas: {
     mainTitle: "Guia passo a passo para solicitação de visto F1",
@@ -296,7 +300,7 @@ Os novos alunos são obrigados a fazer um teste de nivelamento para avaliar sua 
                       </li>
           </ol>`,
     contact: `Esperamos que você tenha achado nosso guia passo a passo útil <br>
-       Entre em contato conosco para tirar dúvidas adicionais! `
+       Entre em contato conosco para tirar dúvidas adicionais! `,
   },
   about: {
     mainTitle: "Quem Somos",
@@ -309,7 +313,7 @@ Os novos alunos são obrigados a fazer um teste de nivelamento para avaliar sua 
     firma: "JULIANA PICCINATO",
     title2: "Corpo docente e pessoal",
     p3:
-      "As altas credenciais acadêmicas da equipe e a ampla experiência em educação nos ajudam a selecionar nossos instrutores nativos. Sua dedicação, determinação e paixão pelo ensino refletem no progresso das habilidades de fala de nossos alunos"
+      "As altas credenciais acadêmicas da equipe e a ampla experiência em educação nos ajudam a selecionar nossos instrutores nativos. Sua dedicação, determinação e paixão pelo ensino refletem no progresso das habilidades de fala de nossos alunos",
   },
 
   contact: {
@@ -322,7 +326,7 @@ Os novos alunos são obrigados a fazer um teste de nivelamento para avaliar sua 
     l4: "Informações adicionais",
     button1: "Enviar",
     t2: "Detalhes de contato",
-    button2: "Voltar"
+    button2: "Voltar",
   },
   galleries: {
     mainTitle: "Ano novo, novo visual!",
@@ -354,6 +358,60 @@ Temos o prazer de anunciar a instalação de placas inteligentes SHARP AQUOS 4K 
       "Trabalhe duro, jogue duro. Na OLS, você pode visitar locais emblemáticos em Orlando com seus colegas de classe!",
     celebrationsTitle: "Celebrações!",
     celebrationsP:
-      "Seja no Dia das Bruxas, Ação de Graças ou Natal, na OLS, gostamos de comemorar tudo!"
-  }
+      "Seja no Dia das Bruxas, Ação de Graças ou Natal, na OLS, gostamos de comemorar tudo!",
+  },
+  landing: {
+    t1: "Você ousa aprender inglês?",
+    t2:
+      "Junte-se ao nosso seleto grupo de estudantes aqui em Orlando FL, cadastre-se e comece a trabalhar com você e seu futuro",
+    t3:
+      "Ols4u, Orlando, FL, com mais de 25 anos de experiência, professores de alto nível, o melhor método e uma infraestrutura moderna, tudo à sua disposição",
+    t4: "Junte-se a nós",
+    p1: "POR QUE ESCOLA DE LÍNGUA ORLANDO?",
+    p2: "Como nosso método é 100% garantido e se adapta a você.",
+    p3:
+      "Nossa missão é ajudá-lo a falar o idioma inglês com segurança e em pouco tempo.",
+    p4: "Aprendendo para você:",
+    p5:
+      "Nós fornecemos a melhor experiência de aprendizado através do uso de programas, materiais e metodologia dinâmicos, centrados no aluno. Recentemente, investimos para oferecer a você uma das mais modernas infraestruturas do sul da Flórida",
+    p6: "Experiência:",
+    p7:
+      "Temos mais de 25 anos de experiência e uma equipe de professores e instrutores de alto nível. Eles garantirão o sucesso de sua adaptação ao nosso método. Nossos professores seguem uma abordagem comunicativa e centrada no aluno para o ensino e aprendizagem de idiomas. Inglês ",
+    p8: "Acreditações:",
+    p9:
+      "O OLs4U está autorizado pelo Programa SEVP para Estudantes e Visitantes de Intercâmbio a matricular estudantes estrangeiros não imigrantes que desejam estudar inglês em Orlando.",
+    p10:
+      "O Ols4u possui o credenciamento concedido pela Comissão de Credenciamento do Programa de Língua Inglesa (CEA), é a única agência de credenciamento reconhecida pela Secretaria de Educação dos Estados Unidos. Seu objetivo é promover a excelência no campo do ensino e da administração. Programas de inglês com a ajuda de processos de credenciamento em todo o mundo. ",
+    p11:
+      "Não perca esta oportunidade! Inscreva-se dessa maneira e aproveite um desconto especial de 40%",
+    p12: "PART TIME",
+    p13: "desconto de US $485 a 40%",
+    p14: "$291",
+    p15: "16,75 horas de aula por semana",
+    p16: "67 horas de aula por mês",
+    p17: "Livros de gramática e conversação incluídos: 1 jogo por nível",
+    p18: "Horário flexível",
+    p19: "Taxa por 4 semanas",
+    p20:
+      "* Dependendo do caso e do perfil do aluno, a administração do OLS4U pode aplicar uma única taxa adicional de US $ 50, no momento da inscrição e entrega dos recibos",
+    p112: "TEMPO INTEIRO",
+    p113: "desconto de US $530 -40",
+    p114: "$318",
+    p115: "18 horas de aula por semana",
+    p116: "72 horas de aula por mês",
+    p117: "Livros de gramática e conversação incluídos: 1 jogo por nível",
+    p118: "Horário flexível",
+    p119: "Taxa por 4 semanas",
+    btn: "Inscreva-se hoje",
+  },
+  success: {
+    t1: "Seu pagamento foi concluído com êxito",
+    t2: "Entraremos em contato em breve por e-mail.",
+    t3: "Ir para casa",
+  },
+  rejected: {
+    t1: "Não foi possível processar seu pagamento com êxito",
+    t2: "tente novamente",
+    t3: "Tente novamente",
+  },
 };

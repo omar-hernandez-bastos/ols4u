@@ -1,86 +1,50 @@
 <template>
   <v-card
-    :height="hight"
+    :height="height"
     :width="width"
     class="carta d-flex flex-column justify-space-between align-center"
   >
-    <v-card-title class="title-card">Tiempo Parcial</v-card-title>
-    <div class="price">$485</div>
-    <div class="list">
-      <v-row
-        align="center"
-        justify="center"
+    <v-card-title style="word-break: break-word" class=" title-card ">{{
+      $t("landing.p12")
+    }}</v-card-title>
+    <div class="price d-flex justify-center align-center flex-column">
+      <span
+        style="text-decoration:line-through; text-decoration-color:black; text-decoration-style: dashed"
+        class="display-1"
       >
-        <v-col
-          class="d-flex justify-center"
-          cols="12"
-        >
-          <img
-            width="33"
-            height="29"
-            class="mx-2"
-            src="../assets/pricing/checklist.svg"
-          />Lorem Ipsun
-        </v-col>
-        <v-col
-          class="d-flex justify-center"
-          cols="12"
-        >
-          <img
-            width="33"
-            height="29"
-            class="mx-2"
-            src="../assets/pricing/checklist.svg"
-          />Lorem Ipsun
-        </v-col>
-        <v-col
-          class="d-flex justify-center"
-          cols="12"
-        >
-          <img
-            width="33"
-            height="29"
-            class="mx-2"
-            src="../assets/pricing/uncheck.svg"
-          />Lorem Ipsun
-        </v-col>
-        <v-col
-          class="d-flex justify-center"
-          cols="12"
-        >
-          <img
-            width="33"
-            height="29"
-            class="mx-2"
-            src="../assets/pricing/uncheck.svg"
-          />Lorem Ipsun
-        </v-col>
-        <v-col
-          class="d-flex justify-center"
-          cols="12"
-        >
-          <img
-            width="33"
-            height="29"
-            class="mx-2"
-            src="../assets/pricing/uncheck.svg"
-          />Lorem Ipsun
-        </v-col>
-      </v-row>
+        {{ $t("landing.p13") }}</span
+      >
+      {{ $t("landing.p14") }}
+    </div>
+    <div class="list">
+      <v-container>
+        <v-row align="center" justify="center">
+          <v-col class="d-flex justify-center" cols="12">
+            {{ $t("landing.p15") }}
+          </v-col>
+          <v-col class="d-flex justify-center" cols="12">
+            {{ $t("landing.p16") }}
+          </v-col>
+          <v-col class="d-flex justify-center" cols="12">
+            {{ $t("landing.p17") }}
+          </v-col>
+          <v-col class="d-flex justify-center" cols="12">
+            {{ $t("landing.p18") }}
+          </v-col>
+          <v-col class="d-flex justify-center" cols="12">
+            {{ $t("landing.p19") }}
+          </v-col>
+        </v-row>
+      </v-container>
     </div>
     <div class="boton my-12">
-      <v-btn
-        dark
-        rounded
-        x-large
-        color="primary"
-        class="text-capitalize"
-      >Inscribirse Hoy</v-btn>
+      <partial-button></partial-button>
     </div>
   </v-card>
 </template>
 
 <script>
+import PartialButton from "./PartialButton";
 export default {
   props: {
     width: {
@@ -91,6 +55,9 @@ export default {
       type: String,
       default: "Auto"
     }
+  },
+  components: {
+    PartialButton
   }
 };
 </script>

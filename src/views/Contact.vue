@@ -203,17 +203,10 @@ export default {
       if (this.$refs.form.validate()) {
         const formData = new FormData();
         formData.append("name", this.name);
-        formData.append("number", this.number);
         formData.append("phone", this.phone);
         formData.append("email", this.email);
-        formData.append("propertyType", this.propertyType);
-        formData.append("typeOfLoss", this.typeOfLoss);
-        formData.append("typeOfLoss", this.typeOfLoss);
-        formData.append("additionalInfo", this.additionalInfo);
-        formData.append("lossCause", this.lossCause);
-        formData.append("address", this.address);
-        formData.append("zip", this.zip);
-        axios.post("../../public/mail/contact_me.php", formData);
+        formData.append("message", this.additionalInfo);
+        axios.post("./mail/contact_me.php", formData);
 
         this.$vs.loading({
           color: "rgb(247, 121, 43)"
@@ -259,5 +252,10 @@ h1:before {
 h1:after {
   left: 0.5em;
   margin-right: -50%;
+}
+
+.v-application .error--text {
+  color: white !important;
+  caret-color: white !important;
 }
 </style>

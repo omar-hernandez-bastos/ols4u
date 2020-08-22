@@ -6,6 +6,8 @@ import FullTimePrograms from "../views/FullTimePrograms.vue";
 import PartTimePrograms from "../views/PartTimePrograms.vue";
 import LandingPage from "../views/LandingPage.vue";
 
+import Rejected from "../views/Rejected.vue";
+import Success from "../views/Success.vue";
 import Visas from "../views/Visas.vue";
 import Galleries from "../views/Galleries.vue";
 import About from "../views/About.vue";
@@ -19,62 +21,74 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home
+    component: Home,
   },
   {
     path: "/enrollment",
     name: "LandingPage",
-    component: LandingPage
+    component: LandingPage,
   },
   {
     path: "/programs",
     name: "Programs",
 
-    component: Programs
+    component: Programs,
   },
   {
     path: "/full-time",
     name: "full-time",
 
-    component: FullTimePrograms
+    component: FullTimePrograms,
   },
   {
     path: "/part-time",
     name: "part-time",
 
-    component: PartTimePrograms
+    component: PartTimePrograms,
   },
   {
     path: "/contact",
     name: "contact",
 
-    component: Contact
+    component: Contact,
   },
   {
     path: "/visas",
     name: "visas",
 
-    component: Visas
+    component: Visas,
   },
   {
     path: "/galleries",
     name: "galleries",
 
-    component: Galleries
+    component: Galleries,
   },
   {
     path: "/about",
     name: "about",
 
-    component: About
-  }
+    component: About,
+  },
+  {
+    path: "/success",
+    name: "success",
+
+    component: Success,
+  },
+  {
+    path: "/rejected",
+    name: "rejected",
+
+    component: Rejected,
+  },
 ];
 
 const router = new VueRouter({
   routes,
   scrollBehavior() {
     return { x: 0, y: 0 };
-  }
+  },
 });
 router.beforeEach((to, from, next) => {
   if (
