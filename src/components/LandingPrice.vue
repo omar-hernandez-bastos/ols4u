@@ -7,62 +7,60 @@
     <div class="my-12 display-1 white--text d-flex justify-center text-center">
       {{ $t("landing.p11") }}
     </div>
-    <v-container class="hidden-sm-and-down">
+    <v-container>
       <v-row align="start" justify="center">
-        <v-col
-          data-aos-easing="ease-in-quad"
-          data-aos="fade-left"
-          data-aos-delay="50"
-          cols="4"
-          align="center"
-          justify="center"
-        >
-          <pricing-card></pricing-card>
-        </v-col>
-        <v-col
+         <v-col
           data-aos-easing="ease-in-quad"
           data-aos="fade-right"
           data-aos-delay="250"
-          cols="4"
+          cols="12"
+          xs=6
+          md=3
           align="center"
           justify="center"
         >
-          <growing></growing>
-        </v-col>
-      </v-row>
-    </v-container>
-
-    <v-container class="hidden-md-and-up">
-      <v-row align="center" justify="center">
+          <growing height="800"></growing>
+        </v-col>  
         <v-col
           data-aos-easing="ease-in-quad"
           data-aos="fade-left"
           data-aos-delay="50"
           cols="12"
-          xs="6"
-          md="4"
-          sm="4"
+          xs=6
+          md=3
           align="center"
           justify="center"
         >
-          <pricing-card></pricing-card>
+          <super-intense height="800"></super-intense>
         </v-col>
-
+             <v-col
+          data-aos-easing="ease-in-quad"
+          data-aos="fade-left"
+          data-aos-delay="50"
+          cols="12"
+          xs=6
+          md=3
+          align="center"
+          justify="center"
+        >
+          <grammar height="800"> </grammar>
+        </v-col>
         <v-col
           data-aos-easing="ease-in-quad"
           data-aos="fade-right"
           data-aos-delay="250"
           cols="12"
-          xs="6"
-          md="4"
-          sm="4"
+          xs=6
+          md=3
           align="center"
           justify="center"
         >
-          <growing></growing>
+           <conversation height="800"></conversation>
         </v-col>
       </v-row>
     </v-container>
+
+  
     <div
       class="caption white--text d-flex justify-center text-center font-italic"
     >
@@ -72,12 +70,14 @@
 </template>
 
 <script>
-import PricingCard from "./Card";
+import SuperIntense from "./SuperIntense";
 import Growing from "./Growing";
 export default {
   components: {
-    PricingCard,
-    Growing
+    SuperIntense,
+    Growing,
+    grammar:()=>import('./Grammar.vue'),
+    conversation:()=>import('./Conversation.vue')
   }
 };
 </script>

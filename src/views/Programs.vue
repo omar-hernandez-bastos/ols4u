@@ -11,7 +11,7 @@
         data-aos="fade-top"
         class="text-capitalize work-sans my-8 display-2 font-weight-bold primary--text text-center"
       >
-        {{ $t("programs.fulltime") }}
+        {{ $t("programs.fulltime") }} <br><span class="title black--text">{{$t('underline')}}</span>
       </h1>
       <p
         data-aos="fade-down"
@@ -147,8 +147,10 @@
         data-aos="fade-top"
         class="text-capitalize work-sans my-8 display-2 font-weight-bold primary--text text-center"
       >
-        {{ $t("programs.parttime") }}
+        {{ $t("programs.parttime") }}<br>
+        <span class="title black--text">{{$t('underline')}}</span>
       </h1>
+    
       <p
         data-aos="fade-down"
         class="work-sans text-justify"
@@ -361,7 +363,21 @@
           ></p>
         </v-container>
       </v-container>
-      <v-divider></v-divider>
+
+<div class="d-flex justify-center align-center">
+<v-btn class="my-12" x-large="" color=primary width="300" rounded="" to="/promo">{{$t('header.enrollment')}}!</v-btn></div>
+  <v-divider></v-divider> 
+
+
+
+    <v-container class="screw d-flex justify-center">  <a href="/archievement.pdf"
+      
+        class="my-12 text-capitalize text-center work-sans display-2 font-weight-bold primary--text text-center"
+      >
+        {{ $t("programs.achievement") }} <v-icon color="#183290">mdi-file-document-multiple</v-icon>
+      </a></v-container>
+
+ <v-divider></v-divider>
       <v-container>
         <h1
           data-aos="fade-top"
@@ -369,6 +385,7 @@
         >
           {{ $t("programs.enrollment.enrollmentTitle") }}
         </h1>
+        
         <v-simple-table>
           <template v-slot:default>
             <thead>
@@ -405,6 +422,7 @@
         </v-simple-table>
       </v-container>
       <v-divider></v-divider>
+
       <h1
         data-aos="fade-top"
         class="text-capitalize work-sans my-8 display-2 font-weight-bold primary--text text-center"

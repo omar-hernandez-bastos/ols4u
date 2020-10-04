@@ -66,6 +66,7 @@ export default {
     callus: "Llámanos",
   },
   programs: {
+    achievement: "Escala de logros e interpretación de niveles",
     fulltime: "Programa de tiempo completo",
     ftP1: `Orlando Language School ofrece una programación intensiva para estudiantes internacionales de visa F1 a tiempo completo que van desde principiantes hasta el nivel universitario o universitario. Nuestro programa principal de inglés se basa en 10 niveles dictados por los mejores instructores calificados. Los niveles avanzados están disponibles después de completar nuestro programa principal. También ofrecemos cursos de preparación para el TOEFL.`,
     ftTitle1: `CERTIFICACIONES DE TERMINACIÓN`,
@@ -74,8 +75,8 @@ export default {
     ftPricingList: `<ul>
     <li>$530 USD cada cuatro semanas</li>
     <li>18 horas de clase por semana: un total de 72 horas de clase en 28 días</li>
-    <li><a href="https://www.ols4u.com/s/School-Policies-Full-time-FT-Students.pdf">Política escolar del programa de tiempo completo </a></li>
-    <li><a href="https://www.ols4u.com/s/Enrollment-Agreement-Full-time-FT-Students-and-I-20-Application-Form.pdf"> Acuerdo de inscripción a tiempo completo (FT ) Estudiantes y I-20 </a></li>
+    <li><a href="https://www.ols4u.com/policiesFT.pdf">Política escolar del programa de tiempo completo </a></li>
+    <li><a href="https://www.ols4u.com/enrollmentFT.pdf"> Acuerdo de inscripción a tiempo completo (FT ) Estudiantes y I-20 </a></li>
     </ul>`,
     ftTitle3: `PRUEBA DE COLOCACIÓN`,
     ftP3: `Para todos nuestros programas, ofrecemos una prueba de nivel gratuita para todos los estudiantes entrantes. Preferiblemente se toma un día antes del comienzo del período. <br> <br> Los libros de texto y las tarifas de solicitud no se aplican si está inscrito durante todo el año.`,
@@ -96,8 +97,8 @@ export default {
     <li>16.75 horas de clase por semana - 67 horas de clase en 28 días</li>
     <li>Libros de gramática y conversaciones incluidos: 1 juego por nivel</li>
     <li>Tarifa de registro única de $ 50 USD</li>
-    <li><a href="https://www.ols4u.com/s/School-Policies-Full-time-PT-Students.pdf">Política escolar del programa a tiempo parcial</a></li>
-    <li><a href="https://www.ols4u.com/s/Enrollment-Agreement-Full-time-PT-Students-and-I-20-Application-Form.pdf">Contrato de inscripción Estudiantes a tiempo parcial (PT) y formulario de inscripción</a></li>
+    <li><a href="https://www.ols4u.com/policiesPT.pdf">Política escolar del programa a tiempo parcial</a></li>
+    <li><a href="https://www.ols4u.com/enrollmentPT.pdf">Contrato de inscripción Estudiantes a tiempo parcial (PT) y formulario de inscripción</a></li>
     </ul>`,
 
     ptScheduleTitle: "HORARIOS PARA TIEMPO PARCIAL",
@@ -110,14 +111,14 @@ export default {
     ptEvening: "NOCHE",
     ptEveningP:
       "De lunes a miercoles de 6:00 p.m. a 10:45 p.m. <br> Jueves de 6:00 p.m. a 9:30 p.m.",
-    ipgTitle1: "PROGRAMA INTENSIVO GRAMÁTICA (IPG)",
+    ipgTitle1: "PROGRAMA INTENSIVO GRAMÁTICA (IGP)",
     ipgPricingList: `<ul>
     <li>$ 325 USD cada cuatro semanas</li>
-    <li>10 horas de clase por semana: un total de 40 horas de clase en 28 días</li>
+    <li>6,75 horas de clase por semana: un total de 27 horas de clase en 28 días</li>
     <li>Libros de gramática incluidos: 1 juego por nivel </li>
     <li>Tarifa de registro única de $ 50 USD</li>
     </ul>`,
-    ipgTitle2: "CALENDARIO DE IPG",
+    ipgTitle2: "CALENDARIO DE IGP",
     ipgMorning: "MAÑANA",
     ipgMorningP: "Lunes - Jueves desde 9:00am A 11:30 am",
     ipgAfternoon: "TARDE",
@@ -128,7 +129,7 @@ export default {
     icpTitle1: "PROGRAMA INTENSIVO CONVERSACIONAL (IPC)",
     icpPricingList: `<ul>
     <li>$ 230 USD cada cuatro semanas</li>
-    <li>10 horas de clase por semana: un total de 40 horas de clase en 28 días</li>
+    <li>6,75 horas de clase por semana: un total de 27 horas de clase en 28 días</li>
     <li>Libros de Inglés Conversacional incluidos: 1 juego por nivel </li>
     <li>Tarifa de registro única de $ 50 USD</li>
     </ul>`,
@@ -378,11 +379,23 @@ Nos complace anunciar la instalación de TARJETAS INTELIGENTES 4K SHARP AQUOS de
     p11:
       "¡No dejes pasar esta oportunidad! Inscríbete por esta vía y disfruta de un descuento especial del 40% ",
     p12: "TIEMPO PARCIAL",
-    p13: "$485 -40 de descuento",
-    p14: "$291",
-    p15: "16.75 horas de clase por semana",
-    p16: "67 horas de clase por mes",
+    p122: "GRAMATICAL<br> (IGP)",
+    p1222: "CONVERSACIONAL<br> (ICP)",
+    p13: "$ 485 -40% DE DESCUENTO",
+    p133: "$ 325 -40% DE DESCUENTO",
+    p1333: "$ 230 -40% DE DESCUENTO",
+    p14: "$ 291",
+    p144: "$ 195",
+    p1444: "$ 138",
+    p15: "16,75 horas de clase por semana",
+    p155: "6,75 horas de clase por semana",
+    p1555: "6,75 horas de clase por semana",
+    p16: "67,5 horas de clase al mes",
+    p166: "27 horas de clase al mes",
+    p1666: "27 horas de clase al mes",
     p17: "Libros de gramática y conversación incluidos: 1 juego por nivel",
+    p177: "Libros de gramática incluidos: 1 juego por nivel",
+    p1777: "Libros de conversación incluidos - 1 juego por nivel",
     p18: "Horarios flexibles",
     p19: "Tarifa por 4 semanas",
     p20:
@@ -409,4 +422,9 @@ Nos complace anunciar la instalación de TARJETAS INTELIGENTES 4K SHARP AQUOS de
     t2: "Por favor intente de nuevo",
     t3: "Intentar de nuevo",
   },
+  visaf1: "Conoce los requerimientos de la visa F-1",
+  popup1: "¡Aprende inglés en línea desde cualquier parte del mundo! ",
+  popup2: "PROGRAMAS ONLINE",
+  underline:
+    "Ahora disponible en línea - ¡Estudie desde cualquier parte del mundo!",
 };

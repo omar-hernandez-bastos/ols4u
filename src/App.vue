@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-content>
+      <popup></popup>
       <router-view></router-view>
     </v-content>
   </v-app>
@@ -10,7 +11,9 @@
 export default {
   name: "App",
 
-  components: {},
+  components: {
+    popup:()=>import("./components/Popup")
+  },
 
   data: () => ({
     //

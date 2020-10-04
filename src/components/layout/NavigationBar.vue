@@ -52,7 +52,7 @@
     >
     <v-btn
       text
-      to="/enrollment"
+      to="/promo"
       class="font-weight-bold text-uppercase  hidden-sm-and-down"
       color="white"
       >{{ $t("header.enrollment") }}</v-btn

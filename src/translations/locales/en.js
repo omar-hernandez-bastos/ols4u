@@ -67,6 +67,7 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
     enrollment: "Enrollment",
   },
   programs: {
+    achievement: "Achievement Scale & Interpretation of Levels",
     fulltime: "Full-Time Program",
     ftP1: `Orlando Language School offers intensive programing for full time F1 visa international students ranging from beginner to college or university level.Our main English program is based on 10 levels dictated by the best qualified instructors.Advanced levels are available after completion of our main program.We also provide TOEFL preparation courses.`,
     ftTitle1: `COMPLETION CERTIFICATIONS`,
@@ -75,8 +76,8 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
     ftPricingList: `<ul>
     <li>$530 USD every four weeks</li>
     <li>18 class hours per week - a total of 72 class hours in 28 days</li>
-    <li><a href="https://www.ols4u.com/s/School-Policies-Full-time-FT-Students.pdf">Full Time Program School Policy</a></li>
-    <li><a href="https://www.ols4u.com/s/Enrollment-Agreement-Full-time-FT-Students-and-I-20-Application-Form.pdf">Enrollment Agreement Full Time (FT) Students And I-20</a></li>
+    <li><a href="https://www.ols4u.com/policiesFT.pdf">Full Time Program School Policy</a></li>
+    <li><a href="https://www.ols4u.com/enrollmentFT.pdf">Enrollment Agreement Full Time (FT) Students And I-20</a></li>
     </ul>`,
     ftTitle3: `PLACEMENT TESTING`,
     ftP3: `For all of our programs, we offer a free placement test for all incoming students. Preferably taken one day prior to the beginning of the term.<br><br>Text books and application fees are waived if enrolled for the entire year.`,
@@ -97,8 +98,8 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
     <li>16.75 class hours per week - 67 class hours in 28 days</li>
     <li>Grammar and conversations books included - 1 set per level </li>
     <li>One time registration fee of $50 USD</li>
-    <li><a href="https://www.ols4u.com/s/School-Policies-Full-time-PT-Students.pdf">Part Time Program School Policy</a></li>
-    <li><a href="https://www.ols4u.com/s/Enrollment-Agreement-Full-time-PT-Students-and-I-20-Application-Form.pdf">Enrollment Agreement Part-time (PT) Students and Application Form</a></li>
+    <li><a href="https://www.ols4u.com/policiesPT.pdf">Part Time Program School Policy</a></li>
+    <li><a href="https://www.ols4u.com/enrollmenPT.pdf">Enrollment Agreement Part-time (PT) Students and Application Form</a></li>
     </ul>`,
 
     ptScheduleTitle: "PART-TIME SCHEDULE",
@@ -111,14 +112,14 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
     ptEvening: "EVENING",
     ptEveningP:
       "Monday through Wednesday from 6:00 pm to 10:45 pm <br>Thursdays from 6:00 pm to 9:30 pm",
-    ipgTitle1: "INTENSIVE PROGRAM GRAMMAR (IPG)",
+    ipgTitle1: "INTENSIVE GRAMMAR PROGRAM (IGP)",
     ipgPricingList: `<ul>
     <li>$325 USD every four weeks</li>
-    <li>10 class hours per week - total of 40 class hours in 28 days</li>
+    <li>6.75 class hours per week - total of 27 class hours in 28 days</li>
     <li>Grammar books included - 1 set per level </li>
     <li>One time registration fee of $50 USD</li>
     </ul>`,
-    ipgTitle2: "IPG SCHEDULE",
+    ipgTitle2: "IGP SCHEDULE",
     ipgMorning: "MORNING",
     ipgMorningP: "Monday - Thursday from 9:00am to 11:30 am",
     ipgAfternoon: "AFTERNOON",
@@ -126,10 +127,10 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
       "Monday - Thursday from 2:00 pm to 4:00 pm <br> Fridays from 12:45pm to 2:45 pm",
     ipgEvening: "EVENING",
     ipgEveningP: "Monday - Thursday from 6:00pm to 08:30pm",
-    icpTitle1: "INTENSIVE CONVERSATION  GRAMMAR (ICP)",
+    icpTitle1: "INTENSIVE CONVERSATION  PROGRAM (ICP)",
     icpPricingList: `<ul>
     <li>$230 USD every four weeks</li>
-    <li>10 class hours per week - total of 40 class hours in 28 days</li>
+    <li>6.75 class hours per week - total of 27 class hours in 28 days</li>
     <li>Conversation books included - 1 set per level </li>
     <li>One time registration fee of $50 USD</li>
     </ul>`,
@@ -354,46 +355,57 @@ We are pleased to announce the installation of 70-inch 4K SHARP AQUOS SMART BOAR
       "Whether it’s Halloween, Thanksgiving, or Christmas, at OLS we like to celebrate it all!",
   },
   landing: {
-    t1: "Do you dare to learn English?",
+    t1: "Do you aspire to speak English?",
     t2:
-      "Join our select group of students here in Orlando FL, register and start working on you and your future ",
+      "Join our select group of students here in Orlando FL, register and start working on yourself and your future ",
     t3:
       "Ols4u, Orlando FL, with more than 25 years of experience, high- level teachers, the best method and a modern infrastructure, all at your disposal",
     t4: "JOIN US",
     p1: "WHY ORLANDO LANGUAGE SCHOOL?",
-    p2: "Because our method is 100% guaranteed and adapts to you.",
-    p3:
-      "Our mission is to help you speak the English language safely and in a short time.",
+    p2: "As our method is 100% guaranteed and adapts to you.",
+    p3: "The core ofOur mission is to help you speak English quickly.",
     p4: "Learning for you:",
     p5:
-      "We provide you with the best learning experience through the use of dynamic, student-centered programs, materials and methodology. We recently invested to offer you one of the most modern infrastructures in South Florida.",
+      "We provide you with the best learning experience through the use of dynamic, student-centered programs, materials and methodology. We recently invested to offer you one of the most modern infrastructures in Central Florida.",
     p6: "Experience:",
     p7:
-      "We have over 25 years of experience and a staff of high-level teachers and instructors, they will ensure the success of your adaptation to our method. Our teachers follow a student-centered, communicative approach to language teaching and learning. English ",
+      "We have over 25 years of experience in the field and a team of top-notch English teachers. We ensure the success of your adaptation to our method. Our teachers follow a  communicative, student-centered approach to teaching and learning English. ",
     p8: "Accreditations:",
     p9:
-      "OLs4U is authorized by the SEVP Student and Exchange Visitor Program to enroll international non-immigrant students who want to study English in Orlando.",
+      "Orlando Language School is authorized by the SEVP Student and Exchange Visitor Program to enroll international non-immigrant students who want to study English in Orlando.",
     p10:
-      "Ols4u is accredited by the Commission on English Language Program Accreditation, CEA, it is the only specialized accrediting agency recognized by the Secretary of Education of the United States, its objective is to promote excellence in the field of teaching and administration English programs with the help of accreditation processes around the world. ",
+      "Orlando Language Schoo is accredited by the Commission on English Language Program Accreditation, CEA, it is the only specialized accrediting agency recognized by the Secretary of Education of the United States, its objective is to promote excellence in the field of teaching and administration English programs with the help of accreditation processes around the world. ",
     p11:
-      "Do not miss this opportunity! Sign up this way and enjoy a special discount of 40%",
+      "Do not miss this opportunity! Enroll today and take advantage of a special  (COVID19 RELIEF) 40% discount",
     p12: "PART TIME",
+    p122: "GRAMMAR<br> (IGP)",
+    p1222: "CONVERSATION<br> (ICP)",
     p13: "$485 -40% OFF",
+    p133: "$325  -40% OFF",
+    p1333: "$230  -40% OFF",
     p14: "$291",
+    p144: "$195",
+    p1444: "$138",
     p15: "16.75 class hours per week",
-    p16: "67 hours of class per month",
-    p17: "Grammar and conversation books included: 1 game per level",
+    p155: "6.75 class hours per week",
+    p1555: "6.75 class hours per week",
+    p16: "67.5 hours of class per month",
+    p166: "27 hours of class per month",
+    p1666: "27 hours of class per month",
+    p17: "Grammar and conversation books included: 1 set per level",
+    p177: "Grammar and conversation books included: 1 set per level",
+    p1777: "Grammar and conversation books included: 1 set per level",
     p18: "Flexible schedules",
     p19: "Rate for 4 weeks",
     p20:
-      "* Depending on the case and the profile of the student, the administration of OLS4U may apply a single additional fee of $ 50, at the time of registration and delivery of receipts.",
+      "* Standard registration fee is $50 for students applying from country of origin or change of status. This fee is currently being waived for transfer in students.",
     p112: "FULL TIME",
     p113: "$530 -40% OFF",
     p114: "$318",
     p115: "18 hours of class per week",
     p116: "72 hours of class per month",
-    p117: "Grammar and conversation books included: 1 game per level",
-    p118: "Flexible hours",
+    p117: "Grammar and conversation books included: 1 set per level",
+    p118: "Flexible schedules",
     p119: "Rate for 4 weeks",
     btn: "Sign up today",
   },
@@ -407,4 +419,8 @@ We are pleased to announce the installation of 70-inch 4K SHARP AQUOS SMART BOAR
     t2: "please try again",
     t3: "Try again",
   },
+  visaf1: "Meets F-1 Visa Requirements",
+  popup1: "Learn English Online from anywhere in the World! ",
+  popup2: "ONLINE PROGRAMS",
+  underline: "Now Available Online - Study from anywhere in the World!",
 };
