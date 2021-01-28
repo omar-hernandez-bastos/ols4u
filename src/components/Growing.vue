@@ -4,38 +4,40 @@
     :width="width"
     class="carta d-flex flex-column justify-space-around align-center"
   >
-    <v-card-title style="word-break: break-word" class="pa-0 text-center d-flex justify-center title-card ">{{
-      $t("landing.p112")
-    }} <br>
-    <span @click="$router.push({name:'visas'})" class="subtitle-2">{{$t("visaf1")}}</span>
-   
+    <v-card-title
+      style="word-break: break-word"
+      class="pa-0 text-center d-flex justify-center title-card "
+      >{{ $t('landing.p112') }}
     </v-card-title>
+    <div @click="$router.push({ name: 'visas' })" class="subtitle-2">
+      {{ $t('visaf1') }}
+    </div>
     <div class="price d-flex justify-center align-center flex-column">
       <span
         style="text-decoration:line-through; text-decoration-color:black; text-decoration-style: dashed"
         class="display-1"
       >
-        {{ $t("landing.p113") }}</span
+        {{ $t('landing.p113') }}</span
       >
-      {{ $t("landing.p114") }}
+      {{ $t('landing.p114') }}
     </div>
     <div class="list">
       <v-container>
         <v-row align="center" justify="center">
           <v-col class="d-flex justify-center" cols="12">
-            {{ $t("landing.p115") }}
+            {{ $t('landing.p115') }}
           </v-col>
           <v-col class="d-flex justify-center" cols="12">
-            {{ $t("landing.p116") }}
+            {{ $t('landing.p116') }}
           </v-col>
           <v-col class="d-flex justify-center" cols="12">
-            {{ $t("landing.p117") }}
+            {{ $t('landing.p117') }}
           </v-col>
           <v-col class="d-flex justify-center" cols="12">
-            {{ $t("landing.p118") }}
+            {{ $t('landing.p118') }}
           </v-col>
           <v-col class="d-flex justify-center" cols="12">
-            {{ $t("landing.p119") }}
+            {{ $t('landing.p119') }}
           </v-col>
         </v-row></v-container
       >
@@ -47,21 +49,21 @@
 </template>
 
 <script>
-import FullTime from "./FullTime";
+import FullTime from './FullTime';
 export default {
   components: {
-    FullTime
+    FullTime,
   },
   props: {
     width: {
       type: String,
-      default: "100%"
+      default: '100%',
     },
     height: {
       type: String,
-      default: "Auto"
-    }
-  }
+      default: 'Auto',
+    },
+  },
 };
 </script>
 
