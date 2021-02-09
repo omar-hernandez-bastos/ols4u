@@ -9,9 +9,9 @@
       class="pa-0 text-center d-flex justify-center title-card "
       >{{ $t('landing.p112') }}
     </v-card-title>
-    <div @click="$router.push({ name: 'visas' })" class="subtitle-2">
+    <router-link to="/visas" class="subtitle-2">
       {{ $t('visaf1') }}
-    </div>
+    </router-link>
     <div class="price d-flex justify-center align-center flex-column">
       <span
         style="text-decoration:line-through; text-decoration-color:black; text-decoration-style: dashed"

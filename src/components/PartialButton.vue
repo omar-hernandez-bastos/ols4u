@@ -24,21 +24,16 @@ export default {
   methods: {
     async handleClick() {
       // When the customer clicks on the button, redirect them to Checkout.
-      try {
-        const stripe = await stripePromise;
-        this.error = await stripe.redirectToCheckout({
-          lineItems: [
-            // Replace with the ID of your price
-            { price: 'price_1IEdCuDLgW2xlJam836xVfDL', quantity: 1 },
-          ],
-          mode: 'payment',
-          successUrl: 'https://ols4u.com/#/success',
-          cancelUrl: 'https://ols4u.com/#/rejected',
-        });
-      } catch (error) {
-        console.error(error);
-      }
-
+      const stripe = await stripePromise;
+      this.error = await stripe.redirectToCheckout({
+        lineItems: [
+          // Replace with the ID of your price
+          { price: 'price_1IEdCuDLgW2xlJam836xVfDL', quantity: 1 },
+        ],
+        mode: 'payment',
+        successUrl: 'https://ols4u.com/#/success',
+        cancelUrl: 'https://ols4u.com/#/rejected',
+      });
       // If `redirectToCheckout` fails due to a browser or network
       // error, display the localized error message to your customer
       // using `error.message`.

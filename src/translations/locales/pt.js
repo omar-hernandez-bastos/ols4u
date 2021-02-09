@@ -414,7 +414,7 @@ Temos o prazer de anunciar a instalação de placas inteligentes SHARP AQUOS 4K 
     p20:
       '* Dependendo do caso e do perfil do aluno, a administração do OLS4U pode aplicar uma única taxa adicional de US $ 50, no momento da inscrição e entrega dos recibos',
     p112: 'TEMPO INTEIRO',
-    p113: 'desconto de US $530 -40',
+    p113: '$530 -20% OFF',
     p114: '$424',
     p115: '18 horas de aula por semana',
     p116: '72 horas de aula por mês',

@@ -7,14 +7,14 @@
     <div class="my-12 display-1 white--text d-flex justify-center text-center">
       {{ $t('landing.p11') }}
     </div>
-    <v-container>
+    <v-container fluid>
       <v-row align="start" justify="center">
         <v-col
           data-aos-easing="ease-in-quad"
           data-aos="fade-right"
           data-aos-delay="250"
           cols="12"
-          md="6"
+          md="3"
           align="center"
           justify="center"
         >
@@ -25,7 +25,7 @@
           data-aos="fade-left"
           data-aos-delay="50"
           cols="12"
-          md="6"
+          md="3"
           align="center"
           justify="center"
         >
@@ -36,7 +36,7 @@
           data-aos="fade-left"
           data-aos-delay="50"
           cols="12"
-          md="6"
+          md="3"
           align="center"
           justify="center"
         >
@@ -47,7 +47,7 @@
           data-aos="fade-right"
           data-aos-delay="250"
           cols="12"
-          md="6"
+          md="3"
           align="center"
           justify="center"
         >
