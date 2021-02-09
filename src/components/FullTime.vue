@@ -6,20 +6,20 @@
     x-large
     color="primary"
     class="text-capitalize"
-    >{{ $t("landing.btn") }}</v-btn
+    >{{ $t('landing.btn') }}</v-btn
   >
 </template>
 
 <script>
-import { loadStripe } from "@stripe/stripe-js";
+import { loadStripe } from '@stripe/stripe-js';
 // Make sure to call `loadStripe` outside of a component’s render to avoid
 // recreating the `Stripe` object on every render.
-const stripePromise = loadStripe("pk_live_AAU805pV8DnypI1xpGa9Uklv00xDi4bBgK");
+const stripePromise = loadStripe('pk_live_AAU805pV8DnypI1xpGa9Uklv00xDi4bBgK');
 export default {
   components: {},
   data: () => ({
     loading: false,
-    error: null
+    error: null,
   }),
   methods: {
     async handleClick() {
@@ -28,16 +28,16 @@ export default {
       this.error = await stripe.redirectToCheckout({
         lineItems: [
           // Replace with the ID of your price
-          { price: "price_1Gy4LCDLgW2xlJam0IJDtnUh", quantity: 1 }
+          { price: 'price_1IEdAzDLgW2xlJamtKWiJdhW', quantity: 1 },
         ],
-        mode: "payment",
-        successUrl: "https://ols4u.com/#/success",
-        cancelUrl: "https://ols4u.com/#/rejected"
+        mode: 'payment',
+        successUrl: 'https://ols4u.com/#/success',
+        cancelUrl: 'https://ols4u.com/#/rejected',
       });
       // If `redirectToCheckout` fails due to a browser or network
       // error, display the localized error message to your customer
       // using `error.message`.
-    }
-  }
+    },
+  },
 };
 </script>

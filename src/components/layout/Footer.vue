@@ -12,7 +12,7 @@
 
         <v-btn text to="/galleries">{{ $t("footer.galleries") }}</v-btn>
 
-        <v-btn text to="/enrollment">{{ $t("footer.enrollment") }}</v-btn>
+        <v-btn text to="/promo">{{ $t("footer.enrollment") }}</v-btn>
         <v-btn text to="/contact">{{ $t("footer.contact") }}</v-btn>
       </v-col>
       <v-col cols="12" md="4" justify="center" align="center">
