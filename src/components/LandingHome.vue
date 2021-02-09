@@ -17,22 +17,22 @@
             <div
               class="hidden-md-and-up font-weight-bold white--text display-2"
             >
-              {{ $t("landing.t1") }}
+              {{ $t('landing.t1') }}
             </div>
             <div
               class=" hidden-sm-and-down font-weight-bold white--text display-3"
             >
-              {{ $t("landing.t1") }}
+              {{ $t('landing.t1') }}
             </div>
             <div
               class=" hidden-md-and-up font-weight-bold mt-4 white--text subtitle-1"
             >
-              {{ $t("landing.t2") }}
+              {{ $t('landing.t2') }}
             </div>
             <div
               class=" hidden-sm-and-down font-weight-bold mt-4 white--text headline"
             >
-              {{ $t("landing.t2") }}
+              {{ $t('landing.t2') }}
             </div>
 
             <v-btn
@@ -47,7 +47,7 @@
                 class="ml-n10 mr-4"
                 src="../assets/landing/comenzarbtn.svg"
               ></v-img>
-              {{ $t("landing.t4") }}
+              {{ $t('landing.t4') }}
             </v-btn>
           </v-col>
           <v-col
@@ -76,7 +76,7 @@
               </v-col>
               <v-col class="d-flex child-flex" cols="4">
                 <div class="display-4 font-weight-bold white--text">
-                  40% OFF
+                  20% OFF
                 </div>
               </v-col>
             </v-row>
