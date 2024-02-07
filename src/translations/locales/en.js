@@ -69,18 +69,18 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
   programs: {
     achievement: 'Achievement Scale & Interpretation of Levels',
     fulltime: 'Full-Time Program',
-    ftP1: `Orlando Language School offers intensive programing for full time F1 visa international students ranging from beginner to college or university level.Our main English program is based on 10 levels dictated by the best qualified instructors.Advanced levels are available after completion of our main program.We also provide TOEFL preparation courses.`,
+    ftP1: `Orlando Language School offers intensive programing for full time F1 visa international students ranging from beginner to college or university level. Our main English program is based on 10 levels dictated by the best qualified instructors. Advanced levels are available after completion of our main program. We also provide TOEFL preparation courses.`,
     ftTitle1: `COMPLETION CERTIFICATIONS`,
     ftP2: `All students who complete the program are awarded a certificate of attendance at the end of their studies upon request. All students are continuously evaluated and an evaluation report is available at the end of their studies. `,
     ftTitle2: `PRICING`,
     ftPricingList: `<ul>
     <li>$530 USD every four weeks</li>
     <li>18 class hours per week - a total of 72 class hours in 28 days</li>
-    <li><a download href="policiesFT.pdf">Full Time Program School Policy</a></li>
-    <li><a href="enrollmentFT.docx" download>Enrollment Agreement Full Time (FT) Students And I-20</a></li>
+    <li><a download href="policiesFT.pdf">School Policies Full-time (FT) Students</a></li>
+    <li><a href="enrollmentFT.docx" download>Enrollment Agreement Full-time (FT) Students and I-20 Application Form</a></li>
     </ul>`,
     ftTitle3: `PLACEMENT TESTING`,
-    ftP3: `For all of our programs, we offer a free placement test for all incoming students. Preferably taken one day prior to the beginning of the term.<br><br>Text books and application fees are waived if enrolled for the entire year.`,
+    ftP3: `For all of our programs, we offer a free placement test for all incoming students. Preferably taken one day prior to the beginning of the term.`,
     fTScheduleTitle: 'FULL-TIME SCHEDULE',
     ftMorning: 'MORNING',
     ftMorningP: 'Monday - Thursday from 9:00am to 1:45pm',
@@ -97,8 +97,8 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
     <li>$485 USD every four weeks</li>
     <li>16.75 class hours per week - 67 class hours in 28 days</li>
     <li>Grammar and conversations books included - 1 set per level </li>
-    <li>One time registration fee of $50 USD</li>
-    <li><a href="policiesPT.pdf" download>Part Time Program School Policy</a></li>
+    <li>One time registration fee of $100 USD</li>
+    <li><a href="policiesPT.pdf" download>School Policies Part-time (PT) Students</a></li>
     <li><a href="enrollmentPT.docx" download>Enrollment Agreement Part-time (PT) Students and Application Form</a></li>
     </ul>`,
 
@@ -117,7 +117,7 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
     <li>$325 USD every four weeks</li>
     <li>6.75 class hours per week - total of 27 class hours in 28 days</li>
     <li>Grammar books included - 1 set per level </li>
-    <li>One time registration fee of $50 USD</li>
+    <li>One time registration fee of $100 USD</li>
     </ul>`,
     ipgTitle2: 'IGP SCHEDULE',
     ipgMorning: 'MORNING',
@@ -132,7 +132,7 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
     <li>$230 USD every four weeks</li>
     <li>6.75 class hours per week - total of 27 class hours in 28 days</li>
     <li>Conversation books included - 1 set per level </li>
-    <li>One time registration fee of $50 USD</li>
+    <li>One time registration fee of $100 USD</li>
     </ul>`,
     icpTitle2: 'ICP SCHEDULE',
     icpMorning: 'MORNING',
@@ -150,37 +150,39 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
         <li><b>Classes held at school - Package Special</b><br>$35 USD per class hour when booking 20+ hour packages from mornings, afternoons, and/or evenings</li>
             <li><b>Student’s Premises</b><br>$50 USD per class hour and additional .40 cents per mile to student’s premises from morning, afternoons, and/or evenings</li>
     </ul> 
-    One time registration fee of $50 USD`,
+    One time registration fee of $100 USD`,
 
     enroll: [
       {
-        registrationDates: 'January 7, 2019 - December 18, 2020',
-        startDate: 'January 5, 2021',
-        endDate: 'Mar 12, 2021',
+        registrationDates: ' Jan 3, 2023 – Jan 12, 2024',
+        startDate: 'Jan 9, 2024',
+        endDate: 'Mar 22, 2024',
       },
       {
-        registrationDates: 'January 6, 2020 - March 12, 2021',
-        startDate: 'March 22, 2021',
-        endDate: 'May 28, 2021',
+        registrationDates: ' Jan 3, 2023 – Mar 29, 2024',
+        startDate: 'Mar 25, 2024',
+        endDate: 'May 24, 2024',
       },
       {
-        registrationDates: 'January 6, 2020 - May 29, 2021',
-        startDate: 'June 1, 2021',
-        endDate: 'August 6, 2021',
+        registrationDates: 'Jan 3, 2023 – May 31, 2024',
+        startDate: 'May 28, 2024',
+        endDate: 'Aug 2, 2024',
       },
       {
-        registrationDates: 'January 6, 2020 - August 9, 2021',
-        startDate: 'August 9, 2021',
-        endDate: 'October 8, 2021',
+        registrationDates: 'Jan 3, 2023 – Aug 9, 2024',
+        startDate: 'Aug 5, 2024',
+        endDate: 'Oct 11, 2024',
       },
       {
-        registrationDates: 'January 6, 2020 - October 8, 2021',
-        startDate: 'October 12, 2021',
-        endDate: 'December 17, 2021',
+        registrationDates: 'Jan 3, 2023 – Oct 18, 2024',
+        startDate: 'Oct 15, 2024',
+        endDate: 'Dec 20, 2024',
       },
     ],
     enrollment: {
-      enrollmentTitle: '2021 Enrollment Dates',
+      enrollmentTitle: '2024 REGISTRATION DATES',
+      enrollmentDescription: 'GROUP ENGLISH CLASSES',
+      levels: 'LEVELS 1 – 10',
       term: 'Term',
       registrationDates: 'Registration Dates',
       startDate: 'Start Date',
@@ -223,15 +225,15 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
       </li>
       <li>Levels 9 – 10: Passages Grammar Classes (12 Units per Level)</li>
       <li>Extended Levels 1 & 2: TOEFL Preparation (5 Units & 4 Units per Level)</li>
-      <li>Extended Level 3 & 4: Grammar Focus (11 Units & 12 Units per Level)</li></ul>
+      <li>Extended Level 3 & 4: Focus on Grammar (11 Units & 12 Units per Level)</li></ul>
       `,
       title3: 'CONVERSATION',
-      p3: `<ul><li>Levels 1 – 2: Taking Off Conversation Classes (6 units per level)
+      p3: `<ul><li>Levels 1 – 2: Ventures Basic Conversation Classes (5 units per level)
       </li>
       <liLevels 3 – 8: Let’s Talk Conversation Classes (8 units per level)</li>
       <li>Levels 9 – 10: Mosaic 1 & 2 Listening & Speaking Conversation Classes (10 Chapters per level)</li>
-      <li>Extended Levels 1 & 2: Mosaic 1 & 2 Reading Conversation Classes (10 Chapters per level)</li>
-        <li>Extended Levels 3 & 4: Mosaic 1 & 2 Writing Conversation Classes (10 Chapters per level)</li></ul>
+      <li>Extended Levels 1 & 2: Final Draft 3 Conversation Classes (10 Chapters per level)</li>
+        <li>Extended Levels 3 & 4: Final Draft 4 Conversation Classes (10 Chapters per level)</li></ul>
       `,
     },
   },
@@ -240,14 +242,14 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
     stepByStep: `
  <ol class="olClass">
     <li>
-        Contact us with the program you are interested in and preferred start date to start the application process with Orlando Language School.
+        Contact us about the program you are interested in and preferred start date to start the application process with Orlando Language School.
     </li>
     <li>
         Let us know who you are:
         <ul><b>
     <li>Are you applying from your home country?
     </li>    <li>Are you transferring from another school?
-    </li>    <li>O are you applying for a change of status?
+    </li>    <li>Are you applying for a change of status?
     </li></b>
         </ul>
     </li>
@@ -256,21 +258,13 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
         <ul>
             <li>
                 Fill out Orlando Language School enrollment agreement and our School Policy </li>
-            <li>Send us clear copy of your passport photo identification page</li>
+            <li>Send us legible copy of your passport photo identification page</li>
             <li>Financial support proof such as an original bank letter on bank letterhead or a copy of the most recent bank statement demonstrating sufficient available funds to pay for your tuition, fees and living costs for you and any dependents during your stay in the US</li>
             <li><b>If a sponsor is financially funding you we need an original notarized sponsor letter,</b> an original bank letter on bank letterhead or a copy of the most recent bank statement demonstrating sufficient available funds to pay for your tuition, fees and living costs for you and any dependents during your stay in the US</li>
             <li>Submit them to us at info@ols4u.com</li>
-            <li><b>If you are transferring from another school,</b> send us a clear copy of your most recent I-20 form, a clear copy of your current visa from inside your passport, and a clear copy of your Form I-94 or Port of Entry (POE) stamp in your passport. Or, a copy of the approval notice (I-797) of any change of status granted</li>
-            <li><b>If are you applying for a change of status,</b> send us a clear copy of your current visa from inside your passport, and a clear copy of both sides of your Form I-94 or POE stamp in your passport.</li>
+            <li><b>If you are transferring from another school,</b> send us a legible copy of your most recent I-20 form, a legible copy of your current visa from inside your passport, and a clear copy of your Form I-94 or Port of Entry (POE) stamp in your passport. Or, a copy of the approval notice (I-797) of any change of status granted</li>
+            <li><b>If you are applying for a change of status,</b> send us a legible copy of your current visa from inside your passport, and a legible copy of both sides of your Form I-94 or POE stamp in your passport. The student is responsible for submitting the Change of Status Application to USCIS.</li>
             <ul>
-                <li>
-                    Orlando Language School is submitting the COS request on your behalf, please also include:
-                    <ul>
-                        <li>
-                            I-539 application fee of $370 (USD) payable by personal check or money order to the United States Department of Homeland Security</li>
-                        <li>Original completed and signed I-539 application</li>
-                    </ul>
-                </li>
             </ul>
         </ul>
     </li>
@@ -368,7 +362,7 @@ We are pleased to announce the installation of 70-inch 4K SHARP AQUOS SMART BOAR
     t4: 'JOIN US',
     p1: 'WHY ORLANDO LANGUAGE SCHOOL?',
     p2: 'As our method is 100% guaranteed and adapts to you.',
-    p3: 'The core ofOur mission is to help you speak English quickly.',
+    p3: 'The core of our mission is to help you speak English quickly.',
     p4: 'Learning for you:',
     p5:
       'We provide you with the best learning experience through the use of dynamic, student-centered programs, materials and methodology. We recently invested to offer you one of the most modern infrastructures in Central Florida.',
@@ -377,7 +371,7 @@ We are pleased to announce the installation of 70-inch 4K SHARP AQUOS SMART BOAR
       'We have over 25 years of experience in the field and a team of top-notch English teachers. We ensure the success of your adaptation to our method. Our teachers follow a  communicative, student-centered approach to teaching and learning English. ',
     p8: 'Accreditations:',
     p9:
-      'Orlando Language School is authorized by the SEVP Student and Exchange Visitor Program to enroll international non-immigrant students who want to study English in Orlando.',
+      'Orlando Language School is accredited by The Commission on English Language Program Accreditation (CEA) and authorized by the Student and Exchange Visitor Program (SEVP) to enroll international non-immigrant students who want to study English in Orlando.',
     p10:
       'Orlando Language Schoo is accredited by the Commission on English Language Program Accreditation, CEA, it is the only specialized accrediting agency recognized by the Secretary of Education of the United States, its objective is to promote excellence in the field of teaching and administration English programs with the help of accreditation processes around the world. ',
     p11:
@@ -403,7 +397,7 @@ We are pleased to announce the installation of 70-inch 4K SHARP AQUOS SMART BOAR
     p18: 'Flexible schedules',
     p19: 'Rate for 4 weeks',
     p20:
-      '* Standard registration fee is $50 for students applying from country of origin or change of status. This fee is currently being waived for transfer in students.',
+      '* Standard registration fee is $100 for students applying from country of origin or change of status. This fee is currently being waived for transfer in students.',
     p112: 'FULL TIME',
     p113: '$530 -20% OFF',
     p114: '$424',

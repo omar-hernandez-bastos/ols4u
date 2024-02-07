@@ -6,9 +6,8 @@
         data-aos="fade-top"
         class="text-capitalize work-sans my-8 display-2 font-weight-bold primary--text text-center"
       >
-        {{ $t('programs.fulltime') }} <br /><span class="title black--text">{{
-          $t('underline')
-        }}</span>
+        {{ $t('programs.fulltime') }}
+      
       </h1>
       <p
         data-aos="fade-down"
@@ -123,8 +122,8 @@
         data-aos="fade-top"
         class="text-capitalize work-sans my-8 display-2 font-weight-bold primary--text text-center"
       >
-        {{ $t('programs.parttime') }}<br />
-        <span class="title black--text">{{ $t('underline') }}</span>
+        {{ $t('programs.parttime') }}
+       
       </h1>
 
       <p
@@ -350,6 +349,8 @@
         >
           {{ $t('programs.enrollment.enrollmentTitle') }}
         </h1>
+        <h2 class="text-center primary--text">  {{ $t('programs.enrollment.enrollmentDescription') }}</h2>
+        <h3 class="text-center primary--text mb-4"> {{ $t('programs.enrollment.levels') }}</h3>
         <v-simple-table>
           <template v-slot:default>
             <thead>

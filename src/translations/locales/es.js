@@ -155,7 +155,7 @@ export default {
       {
         registrationDates: 'Enero 7, 2019 - Diciembre 18, 2020',
         startDate: 'Enero 5, 2021',
-        endDate: 'Mar 12, 2021',
+        endDate: 'Mar 22, 2024',
       },
       {
         registrationDates: 'Enero 6, 2020 - Marzo 12, 2021',

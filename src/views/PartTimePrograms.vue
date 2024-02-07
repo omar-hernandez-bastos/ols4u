@@ -11,7 +11,7 @@
         data-aos="fade-top"
         class="text-capitalize work-sans my-8 display-2 font-weight-bold primary--text text-center"
       >
-        {{ $t("programs.parttime") }}  <br> <span class="title black--text">{{$t('underline')}}</span>
+        {{ $t("programs.parttime") }}
       </h1>
     
       <p

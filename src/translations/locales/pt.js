@@ -159,7 +159,7 @@ Aulas ministradas na escola.</b><br>US $ 45 por hora de aula de manhã, tarde e 
       {
         registrationDates: 'Janeiro 7, 2019 - Dezembro 18, 2020',
         startDate: 'Janeiro 5, 2021',
-        endDate: 'Mar 12, 2021',
+        endDate: 'Mar 22, 2024',
       },
       {
         registrationDates: 'Janeiro 6, 2020 - Março 12, 2021',
