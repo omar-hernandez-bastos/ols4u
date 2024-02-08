@@ -230,7 +230,7 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
       title3: 'CONVERSATION',
       p3: `<ul><li>Levels 1 – 2: Ventures Basic Conversation Classes (5 units per level)
       </li>
-      <liLevels 3 – 8: Let’s Talk Conversation Classes (8 units per level)</li>
+      <li> Levels 3 – 8: Let’s Talk Conversation Classes (8 units per level)</li>
       <li>Levels 9 – 10: Mosaic 1 & 2 Listening & Speaking Conversation Classes (10 Chapters per level)</li>
       <li>Extended Levels 1 & 2: Final Draft 3 Conversation Classes (10 Chapters per level)</li>
         <li>Extended Levels 3 & 4: Final Draft 4 Conversation Classes (10 Chapters per level)</li></ul>
@@ -262,7 +262,7 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
             <li>Financial support proof such as an original bank letter on bank letterhead or a copy of the most recent bank statement demonstrating sufficient available funds to pay for your tuition, fees and living costs for you and any dependents during your stay in the US</li>
             <li><b>If a sponsor is financially funding you we need an original notarized sponsor letter,</b> an original bank letter on bank letterhead or a copy of the most recent bank statement demonstrating sufficient available funds to pay for your tuition, fees and living costs for you and any dependents during your stay in the US</li>
             <li>Submit them to us at info@ols4u.com</li>
-            <li><b>If you are transferring from another school,</b> send us a legible copy of your most recent I-20 form, a legible copy of your current visa from inside your passport, and a clear copy of your Form I-94 or Port of Entry (POE) stamp in your passport. Or, a copy of the approval notice (I-797) of any change of status granted</li>
+            <li><b>If you are transferring from another school,</b> send us a legible copy of your most recent I-20 form, a legible copy of your current visa from inside your passport, and legible copy of your Form I-94 or Port of Entry (POE) stamp in your passport. Or, a copy of the approval notice (I-797) of any change of status granted</li>
             <li><b>If you are applying for a change of status,</b> send us a legible copy of your current visa from inside your passport, and a legible copy of both sides of your Form I-94 or POE stamp in your passport. The student is responsible for submitting the Change of Status Application to USCIS.</li>
             <ul>
             </ul>

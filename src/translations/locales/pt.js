@@ -76,11 +76,11 @@ export default {
     ftPricingList: `<ul>
     <li>$530 USD a cada quatro semanas</li>
     <li>18 horas de aula por semana: um total de 72 horas de aula em 28 dias</li>
-    <li><a download href="policiesFT.pdf">Política escolar de período integral</a></li>
-    <li><a download href="enrollmentFT.docx"> Estudantes de contrato de inscrição em período integral (FT) e I-20</a></li>
+    <li><a download href="policiesFT.pdf">Políticas Escolares Alunos em Tempo Integral (FT)</a></li>
+    <li><a download href="enrollmentFT.docx">Contrato de Matrícula para Alunos em Tempo Integral (FT) e Formulário de Inscrição I-20</a></li>
     </ul>`,
     ftTitle3: `ENSAIO DE COLOCAÇÃO`,
-    ftP3: `Para todos os nossos programas, oferecemos um teste de nível gratuito para todos os alunos que chegam. De preferência, é tomado um dia antes do início do período. <br> <br> Os livros didáticos e as taxas de inscrição não se aplicam se você estiver matriculado durante o ano.`,
+    ftP3: `Para todos os nossos programas, oferecemos um teste de nível gratuito para todos os alunos que chegam. De preferência, é tomado um dia antes do início do período.`,
     fTScheduleTitle: 'CRONOGRAMA DE TEMPO INTEGRAL',
     ftMorning: 'MANHÃ',
     ftMorningP: 'Segunda a quinta-feira das 9:00 às 13:45',
@@ -98,8 +98,8 @@ export default {
     <li>$ 485 USD a cada quatro semanas</li>
     <li>16,75 horas de aula por semana - 67 horas de aula em 28 dias</li>
     <li>Livros de gramática e conversas incluídos - 1 conjunto por nível </li>
-    <li>Taxa de registro única de US $ 50 USD</li>
-    <li><a download href="policiesPT.pdf"">Política escolar do programa de meio período</a></li>
+    <li>Taxa de registro única de US $100 USD</li>
+    <li><a download href="policiesPT.pdf">Políticas Escolares Alunos em Tempo Parcial (PT)</a></li>
     <li><a download href="enrollmentPT.docx">Contrato de inscrição Alunos a tempo parcial (PT) e formulário de inscrição</a></li>
     </ul>`,
 
@@ -118,7 +118,7 @@ export default {
     <li>$ 325 USD a cada quatro semanas</li>
     <li>6.75 horas de aula por semana - total de 27 horas de aula em 28 dias</li>
     <li>Livros de gramática incluídos - 1 conjunto por nível </li>
-    <li>Taxa de registro única de US $ 50 USD</li>
+    <li>Taxa de registro única de US $100 USD</li>
     </ul>`,
     ipgTitle2: 'CRONOGRAMA DO IGP',
     ipgMorning: 'MANHÃ',
@@ -134,7 +134,7 @@ export default {
     <li>$ 230 USD a cada quatro semanas</li>
     <li>6.75 horas de aula por semana - total de 27 horas de aula em 28 dias</li>
     <li>Livros de conversação incluídos - 1 conjunto por nível </li>
-    <li>Taxa de registro única de US $ 50 USD</li>
+    <li>Taxa de registro única de US $100 USD</li>
     </ul>`,
     icpTitle2: 'CRONOGRAMA DO IPC',
     icpMorning: 'MANHÃ',
@@ -153,37 +153,39 @@ Aulas ministradas na escola.</b><br>US $ 45 por hora de aula de manhã, tarde e 
         <li><b>Aulas ministradas na escola - Pacote Especial</b><br>US $ 35 por hora de aula ao reservar pacotes com mais de 20 horas de manhã, tarde e / ou noite</li>
             <li><b>Instalações do aluno</b><br>US $ 50 por hora de aula e 0,40 centavos de dólar por milha adicionais nas instalações do aluno de manhã, tarde e / ou noite</li>
     </ul> 
-    Taxa de registro única de US $ 50 USD`,
+    Taxa de registro única de US $100 USD`,
 
     enroll: [
       {
-        registrationDates: 'Janeiro 7, 2019 - Dezembro 18, 2020',
-        startDate: 'Janeiro 5, 2021',
+        registrationDates: 'Janeiro 3, 2023 - Janeiro 12, 2024',
+        startDate: 'Janeiro 9, 2024',
         endDate: 'Mar 22, 2024',
       },
       {
-        registrationDates: 'Janeiro 6, 2020 - Março 12, 2021',
-        startDate: 'Março 22, 2021',
-        endDate: 'Maio 28, 2021',
+        registrationDates: 'Janeiro 3, 2023 - Março 29, 2024',
+        startDate: 'Março 25, 2024',
+        endDate: 'Maio 24, 2024',
       },
       {
-        registrationDates: 'Janeiro 6, 2020 - Maio 29, 2021',
-        startDate: 'Junho 1, 2021',
-        endDate: 'Agosto 6, 2021',
+        registrationDates: 'Janeiro 3, 2023 - Maio 31, 2024',
+        startDate: 'Maio 28, 2024',
+        endDate: 'Agosto 2, 2024',
       },
       {
-        registrationDates: 'Janeiro 6, 2020 - Agosto 9, 2021',
-        startDate: 'Agosto 9, 2021',
-        endDate: 'Outubro 8, 2021',
+        registrationDates: 'Janeiro 3, 2023 - Agosto 9, 2024',
+        startDate: 'Agosto 5, 2024',
+        endDate: 'Outubro 11, 2024',
       },
       {
-        registrationDates: 'Janeiro 6, 2020 - Outubro 8, 2021',
-        startDate: 'Outubro 12, 2021',
-        endDate: 'Dezembro 17, 2021',
+        registrationDates: 'Janeiro 3, 2023  - Outubro 18, 2024',
+        startDate: 'Outubro 15, 2024',
+        endDate: 'Dezembro 20, 2024',
       },
     ],
     enrollment: {
-      enrollmentTitle: 'Datas de inscrição para 2021',
+      enrollmentTitle: 'DATAS DE INSCRIÇÃO 2024',
+      enrollmentDescription: 'AULAS DE GRUPO DE INGLÊS',
+      levels: 'NÍVEIS 1 – 10',
       term: 'Term',
       registrationDates: 'Datas de registro',
       startDate: 'Data de início',
@@ -213,11 +215,11 @@ Os novos alunos são obrigados a fazer um teste de nivelamento para avaliar sua 
       title2: 'GRAMÁTICA',
       p2: ` <ul> <li> Níveis 1 a 8: Intercâmbio de classes gramaticais (8 unidades por nível) </li> <li> Níveis 9 a 10: Classes de gramática de passagens (12 unidades por nível) </li> <li> Níveis estendidos 1 e 2: preparação para o TOEFL (5 unidades e 4 unidades por nível) </li> <li> Nível 3 e 4 estendido: foco gramatical (11 unidades e 12 unidades por nível) </li> </ul> `,
       title3: 'CONVERSAÇÃO',
-      p3: ` <ul> <li> Níveis 1 - 2: Decolando Classes de Conversação (6 unidades por nível)</li>
-        <liNíveis 3 a 8: vamos conversar sobre aulas de conversação (8 unidades por nível) </li>
+      p3: ` <ul> <li> Níveis 1 - 2: Decolando Classes de Conversação (5 unidades por nível)</li>
+        <li> Níveis 3 a 8: Vamos conversar sobre aulas de conversação (8 unidades por nível) </li>
       <li> Níveis 9 - 10: Mosaico 1 e 2 - Aulas de conversação e conversação (10 capítulos por nível) </li>
-      <li> Níveis estendidos 1 e 2: aulas de conversação de leitura do mosaico 1 e 2 (10 capítulos por nível) </li>
-      <li> Níveis estendidos 3 e 4: aulas de conversação de escrita do mosaico 1 e 2 (10 capítulos por nível) </li> </ul>`,
+      <li> Níveis estendidos 1 e 2: Versão final 3 aulas de conversação (10 capítulos por nível) </li>
+      <li> Níveis estendidos 3 e 4: Versão final 4 aulas de conversação(10 capítulos por nível) </li> </ul>`,
     },
   },
   visas: {
@@ -246,7 +248,7 @@ Os novos alunos são obrigados a fazer um teste de nivelamento para avaliar sua 
                       <li>
                           Preencha o contrato de inscrição na Orlando Language School e nossa Política escolar </li>
                   
-                      <li> Envie-nos uma cópia clara da sua página de identificação com foto do passaporte </li>
+                      <li> Envie-nos uma cópia legível da sua página de identificação com foto do passaporte </li>
                   
                       <li> Prova de suporte financeiro, como uma carta bancária original em papel timbrado ou uma cópia do extrato bancário mais recente, demonstrando fundos disponíveis suficientes para pagar suas mensalidades, taxas e custos de vida para você e quaisquer dependentes durante sua estadia nos EUA
                           < / li>
@@ -255,24 +257,11 @@ Os novos alunos são obrigados a fazer um teste de nivelamento para avaliar sua 
                           
                               <li> Envie-os para info@ols4u.com </li>
                           
-                              <li> <b> Se você estiver se transferindo de outra escola, </b> envie-nos uma cópia clara do seu formulário I-20 mais recente, uma cópia clara do seu visto atual de dentro do seu passaporte e uma cópia clara do seu Formulário I-94 ou carimbo do porto de entrada (POE) no seu passaporte. Ou uma cópia do aviso de aprovação (I-797) de qualquer alteração de status concedida </li>
+                              <li> <b> Se você estiver se transferindo de outra escola, </b> envie-nos uma cópia legível do seu formulário I-20 mais recente, uma cópia legível do seu visto atual de dentro do seu passaporte e uma cópia legível do seu Formulário I-94 ou carimbo do porto de entrada (POE) no seu passaporte. Ou uma cópia do aviso de aprovação (I-797) de qualquer alteração de status concedida </li>
                           
-                              <li> <b> Se você está solicitando uma mudança de status, </b> envie-nos uma cópia clara do seu visto atual de dentro do seu passaporte e uma cópia clara de ambos os lados do seu carimbo do Formulário I-94 ou POE no seu passaporte. </li>
+                              <li> <b> Se você está solicitando uma mudança de status, </b> envie-nos uma cópia legível do seu visto atual de dentro do seu passaporte e uma cópia legível de ambos os lados do seu carimbo do Formulário I-94 ou POE no seu passaporte. </li>
                           
-                              <ul>
-                              
-                                  <li>
-                                      A Orlando Language School está enviando a solicitação de COS em seu nome, incluindo também:
-                                      <ul>
-                                      
-                                          <li>
-                                              Taxa de inscrição I-539 de US $ 370 (USD) pagável por cheque pessoal ou ordem de pagamento ao Departamento de Segurança Interna dos Estados Unidos </li>
-                                      
-                                          <li> Aplicativo I-539 preenchido e assinado original </li>
-                                          </ul>
-                                      </li>
-                                  </ul>
-                              </ul>
+                            
                   </li>
               
                   <li>
@@ -386,7 +375,7 @@ Temos o prazer de anunciar a instalação de placas inteligentes SHARP AQUOS 4K 
       'Temos mais de 25 anos de experiência e uma equipe de professores e instrutores de alto nível. Eles garantirão o sucesso de sua adaptação ao nosso método. Nossos professores seguem uma abordagem comunicativa e centrada no aluno para o ensino e aprendizagem de idiomas. Inglês ',
     p8: 'Acreditações:',
     p9:
-      'O OLs4U está autorizado pelo Programa SEVP para Estudantes e Visitantes de Intercâmbio a matricular estudantes estrangeiros não imigrantes que desejam estudar inglês em Orlando.',
+      'A Orlando Language School é credenciada pela Comissão de Credenciamento de Programas de Língua Inglesa (CEA) e autorizada pelo Programa de Estudantes e Visitantes de Intercâmbio (SEVP) para matricular estudantes internacionais não-imigrantes que desejam estudar inglês em Orlando.',
     p10:
       'O Ols4u possui o credenciamento concedido pela Comissão de Credenciamento do Programa de Língua Inglesa (CEA), é a única agência de credenciamento reconhecida pela Secretaria de Educação dos Estados Unidos. Seu objetivo é promover a excelência no campo do ensino e da administração. Programas de inglês com a ajuda de processos de credenciamento em todo o mundo. ',
     p11:
@@ -412,7 +401,7 @@ Temos o prazer de anunciar a instalação de placas inteligentes SHARP AQUOS 4K 
     p18: 'Horário flexível',
     p19: 'Taxa por 4 semanas',
     p20:
-      '* Dependendo do caso e do perfil do aluno, a administração do OLS4U pode aplicar uma única taxa adicional de US $ 50, no momento da inscrição e entrega dos recibos',
+      '* Dependendo do caso e do perfil do aluno, a administração do OLS4U pode aplicar uma única taxa adicional de US $100, no momento da inscrição e entrega dos recibos',
     p112: 'TEMPO INTEIRO',
     p113: '$530 -20% OFF',
     p114: '$424',
