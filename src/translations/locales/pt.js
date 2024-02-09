@@ -412,7 +412,7 @@ Temos o prazer de anunciar a instalação de placas inteligentes SHARP AQUOS 4K 
     p119: 'Taxa por 4 semanas',
     btn: 'Inscreva-se hoje',
     notas:
-      'Continuamos a oferecer um desconto de 40% para alunos transferidos em tempo integral. Por favor, contate a escola diretamente para mais informações.',
+      'Por favor, contate a escola diretamente para mais informações.',
   },
   success: {
     t1: 'Seu pagamento foi concluído com êxito',

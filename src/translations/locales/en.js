@@ -408,7 +408,7 @@ We are pleased to announce the installation of 70-inch 4K SHARP AQUOS SMART BOAR
     p119: 'Rate for 4 weeks',
     btn: 'Sign up today',
     notas:
-      'We continue to offer a 40% discount for Full-Time Transfer-In students. Please contact the school directly for more information.',
+      'Please contact the school directly for more information.',
   },
   success: {
     t1: 'Your payment has been successfully completed',

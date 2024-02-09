@@ -407,7 +407,7 @@ Nos complace anunciar la instalación de TARJETAS INTELIGENTES 4K SHARP AQUOS de
     p119: 'Tarifa por 4 semanas',
     btn: 'Inscríbete Hoy',
     notas:
-      'Seguimos ofreciendo un descuento del 40% para los estudiantes transferidos a tiempo completo. Comuníquese directamente con la escuela para obtener más información.',
+      'Comuníquese directamente con la escuela para obtener más información.',
   },
 
   success: {
