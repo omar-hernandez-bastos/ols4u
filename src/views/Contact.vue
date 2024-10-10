@@ -139,8 +139,6 @@
 </template>
 
 <script>
-import axios from "axios";
-
 import NavigationBar from "../components/layout/NavigationBar";
 
 export default {
@@ -199,22 +197,44 @@ export default {
     };
   },
   methods: {
-    validate() {
+    async validate() {
       if (this.$refs.form.validate()) {
-        const formData = new FormData();
-        formData.append("name", this.name);
-        formData.append("phone", this.phone);
-        formData.append("email", this.email);
-        formData.append("message", this.additionalInfo);
-        axios.post("./mail/contact_me.php", formData);
-
         this.$vs.loading({
           color: "rgb(247, 121, 43)"
         });
-        setTimeout(() => {
+
+        // Datos del formulario
+        const formData = {
+          name: this.name,
+          email: this.email,
+          message: this.additionalInfo
+        };
+
+        try {
+          // Enviar solicitud a la Lambda
+          const response = await fetch('https://huz5r065k5.execute-api.us-east-1.amazonaws.com/default/resendEmail', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+          });
+
+          if (response.ok) {
+      await response.json();
+         
+            this.snackbar = true;
+            this.text = 'Emails sent successfully!';
+          } else {
+            
+            this.text = 'Error sending email';
+          }
+        } catch (error) {
+          
+          this.text = 'Error sending email';
+        } finally {
           this.$vs.loading.close();
-          this.snackbar = true;
-        }, 2000);
+        }
       }
     }
   }
