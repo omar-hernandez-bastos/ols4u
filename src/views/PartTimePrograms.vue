@@ -1,10 +1,5 @@
 <template>
-  <v-container
-    fluid
-    mx-0
-    pa-0
-    style=" margin-top:64px; "
-  >
+  <v-container fluid mx-0 pa-0 style=" margin-top:64px; ">
     <navigation-bar></navigation-bar>
     <v-container>
       <h1
@@ -13,17 +8,13 @@
       >
         {{ $t("programs.parttime") }}
       </h1>
-    
+
       <p
         data-aos="fade-down"
         class="work-sans text-justify"
         v-html="$t('programs.ptP1')"
       ></p>
-      <v-row
-        class="mb-12"
-        justify="center"
-        align="center"
-      >
+      <v-row class="mb-12" justify="center" align="center">
         <v-col
           data-aos="fade-left"
           cols="12"
@@ -62,22 +53,13 @@
             {{ $t("programs.ptScheduleTitle") }}
           </h2>
           <h3 class="work-sans accent--text">{{ $t("programs.ptMorning") }}</h3>
-          <p
-            class="work-sans"
-            v-html="$t('programs.ptMorningP')"
-          ></p>
+          <p class="work-sans" v-html="$t('programs.ptMorningP')"></p>
           <h3 class="work-sans accent--text">
             {{ $t("programs.ptAfternoon") }}
           </h3>
-          <p
-            class="work-sans"
-            v-html="$t('programs.ptAfternoonP')"
-          ></p>
+          <p class="work-sans" v-html="$t('programs.ptAfternoonP')"></p>
           <h3 class="work-sans accent--text">{{ $t("programs.ptEvening") }}</h3>
-          <p
-            class="work-sans"
-            v-html="$t('programs.ptEveningP')"
-          ></p>
+          <p class="work-sans" v-html="$t('programs.ptEveningP')"></p>
         </v-col>
         <v-col
           data-aos="fade-right"
@@ -94,11 +76,7 @@
       </v-row>
       <v-divider></v-divider>
 
-      <v-row
-        class="my-12"
-        justify="center"
-        align="center"
-      >
+      <v-row class="my-12" justify="center" align="center">
         <v-col
           data-aos="fade-left"
           cols="12"
@@ -155,11 +133,7 @@
       </v-row>
       <v-divider></v-divider>
 
-      <v-row
-        class="my-12"
-        justify="center"
-        align="center"
-      >
+      <v-row class="my-12" justify="center" align="center">
         <v-col
           data-aos="fade-left"
           cols="12"
@@ -200,6 +174,13 @@
             class="text-start work-sans"
             v-html="$t('programs.icpEveningP')"
           ></p>
+          <h3 class="text-start work-sans accent--text">
+            {{ $t("programs.icp2DayProgram") }}
+          </h3>
+          <p
+            class="text-start work-sans"
+            v-html="$t('programs.icp2DayProgramP')"
+          ></p>
         </v-col>
         <v-col
           data-aos="fade-left"
@@ -237,8 +218,8 @@ import Footer from "../components/layout/Footer";
 export default {
   components: {
     NavigationBar,
-    Footer
-  }
+    Footer,
+  },
 };
 </script>
 

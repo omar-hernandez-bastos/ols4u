@@ -1,16 +1,9 @@
 <template>
-  <v-container
-    fluid
-    px-0
-    ma-0
-    id="join"
-  >
-    <v-container class="work-sans d-flex justify-center align-center fondo-howards">
-      <v-row
-        justify="center"
-        align="center"
-        style="height:80%"
-      >
+  <v-container fluid px-0 ma-0 id="join">
+    <v-container
+      class="work-sans d-flex justify-center align-center fondo-howards"
+    >
+      <v-row justify="center" align="center" style="height:80%">
         <v-col
           justify="center"
           align="center"
@@ -36,12 +29,16 @@
               v-html="$t('join.parrafo')"
               class="mt-4 text-center titulo"
             ></div>
-            <div
-              @click="$router.push({ path: '/full-time' })"
-              data-aos="fade-left"
-              v-html="$t('join.parrafo2')"
-              class="font-weight-bold mt-4 primary--text titulo"
-            ></div>
+            <div class="d-flex justify-center align-center mt-4">
+              <v-btn
+                data-aos="fade-left"
+                @click="$router.push({ path: '/full-time' })"
+                color="primary"
+                class="mx-auto"
+              >
+                {{ $t("join.parrafo2") }}
+              </v-btn>
+            </div>
           </v-container>
         </v-col>
       </v-row>

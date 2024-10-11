@@ -33,7 +33,7 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
     title2: "CHANGE OF STATUS",
     p2: `Follow this easy step-by-step guide to request your change of status or contact us so we can provide you with all the necessary information. Simple and easy. Once done, we’ll issue all your documentation and tell you when to start! 
     <br><br>
-    Orlando Language School is authorized by the SEVP to enroll non-immigrant international students that want to study English in Orlando.<br><br>`,
+    Orlando Language School is authorized under Federal law to enroll nonimmigrant alien students. Orlando Language School is also accredited by CEA (The Commission on English Language Program Accreditation), a commission that promotes excellence in the field of English language teaching and administration.<br><br>`,
     title3: "PART-TIME PROGRAM",
     p3: `<br>This program is focused and tailored to students looking to complete short terms while on vacation or temporarily visiting. Also available for citizens and legal residents of the United States.
     <br><br>
@@ -69,8 +69,8 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
   programs: {
     achievement: "Achievement Scale & Interpretation of Levels",
     fulltime: "Full-Time Program",
-    ftP1: `Orlando Language School offers intensive programing for full time F1 visa international students ranging from beginner to college or university level. Our main English program is based on 10 levels dictated by the best qualified instructors. Advanced levels are available after completion of our main program. We also provide TOEFL preparation courses.`,
-    ftTitle1: `COMPLETION CERTIFICATIONS`,
+    ftP1: `Orlando Language School offers intensive programming for full-time F1 visa international students ranging from beginner to college or university level. Our main English program is based on 10 levels dictated by the best qualified instructors. High advanced levels are available after completion of our main program. We also provide TOEFL preparation courses.`,
+    ftTitle1: `CERTIFICATES OF COMPLETION`,
     ftP2: `All students who complete the program are awarded a certificate of attendance at the end of their studies upon request. All students are continuously evaluated and an evaluation report is available at the end of their studies. `,
     ftTitle2: `PRICING`,
     ftPricingList: `<ul>
@@ -83,19 +83,21 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
     ftP3: `For all of our programs, we offer a free placement test for all incoming students. Preferably taken one day prior to the beginning of the term.`,
     fTScheduleTitle: "FULL-TIME SCHEDULE",
     ftMorning: "MORNING",
-    ftMorningP: "Monday - Thursday from 9:00am to 1:45pm",
+    ftMorningP: "Monday - Thursday from 9:00am to 1:30pm",
     ftAfternoon: "AFTERNOON",
-    ftAfternoonP:
-      "Monday - Thursday from 2pm to 5:45pm <br> Fridays from 12:45pm to 5pm",
+    ftAfternoonP: "Monday - Thursday from 1:30pm to 6:00pm",
+    ft2DayProgram: "2-DAY PROGRAM",
+    ft2DayProgramP: `Mondays and Tuesday from 9:00am to 6:00pm`,
+
     ftEvening: "EVENING",
-    ftEveningP: "Monday - Thursday from 6:00pm to 10:45pm",
+    ftEveningP: "Monday - Thursday from 6:00pm to 10:30pm",
     parttime: "Part-Time Program",
     ptP1: `For all of our programs, we offer a free placement test for all incoming students. Below we have listed our part-time program features and characteristics. This program is focused and tailored for students looking to complete short terms while on vacation, temporarily visiting, or citizens and legal residents of the United States of America`,
 
-    ptTitle2: `SUPER INTENSIVE PROGRAM - PART-TIME`,
+    ptTitle2: `SUPER INTENSIVE PROGRAM: PART-TIME`,
     ptPricingList: `<ul>
     <li>$485 USD every four weeks</li>
-    <li>16.75 class hours per week - 67 class hours in 28 days</li>
+    <li>17 class hours per week - 67.5 class hours in 28 days</li>
     <li>Grammar and conversations books included - 1 set per level </li>
     <li>One time registration fee of $100 USD</li>
     <li><a href="policiesPT.pdf" download>School Policies Part-time (PT) Students</a></li>
@@ -105,45 +107,51 @@ Be stress free: we’ll provide you with an easy step-by-step  guide on how to a
     ptScheduleTitle: "PART-TIME SCHEDULE",
     ptMorning: "MORNING",
     ptMorningP:
-      "Monday through Wednesday from 9:00 am to 1:45 pm <br>Thursdays from 9:00 am to 12:30 pm",
+      "Monday through Wednesday from 9:00am to 1:30pm <br>Thursdays from 9:00am to 12:30pm",
     ptAfternoon: "AFTERNOON",
-    ptAfternoonP:
-      "Monday through Thursday 2:00 pm to 5:45 pm<br>Fridays from 12:45 pm to 5pm",
+    ptAfternoonP: `Monday through Wednesday 1:30pm to 6:00pm
+      <br/> Thursday 1:30pm to 5:00pm`,
     ptEvening: "EVENING",
     ptEveningP:
-      "Monday through Wednesday from 6:00 pm to 10:45 pm <br>Thursdays from 6:00 pm to 9:30 pm",
+      "Monday through Wednesday from 6:00pm to 10:30pm <br>Thursdays from 6:00pm to 09:30pm",
+    pt2DayProgram: "2-DAY PROGRAM",
+    pt2DayProgramP: `Monday from 1:30pm to 6:00pm </br>Tuesday from 1:30pm to 5:00pm`,
     ipgTitle1: "INTENSIVE GRAMMAR PROGRAM (IGP)",
     ipgPricingList: `<ul>
     <li>$325 USD every four weeks</li>
-    <li>6.75 class hours per week - total of 27 class hours in 28 days</li>
+    <li>9 class hours per week - total of 36 class hours in 28 days</li>
     <li>Grammar books included - 1 set per level </li>
     <li>One time registration fee of $100 USD</li>
     </ul>`,
     ipgTitle2: "IGP SCHEDULE",
     ipgMorning: "MORNING",
-    ipgMorningP: "Monday - Thursday from 9:00am to 11:30 am",
+    ipgMorningP: "Monday - Thursday from 9:00am to 11:15am",
     ipgAfternoon: "AFTERNOON",
     ipgAfternoonP:
-      "Monday - Thursday from 2:00 pm to 4:00 pm <br> Fridays from 12:45pm to 2:45 pm",
+      "Monday - Thursday from 1:30pm to 3:45pm",
     ipgEvening: "EVENING",
-    ipgEveningP: "Monday - Thursday from 6:00pm to 08:30pm",
+    ipgEveningP: "Monday - Thursday from 6:00pm to 8:15pm",
     icpTitle1: "INTENSIVE CONVERSATION  PROGRAM (ICP)",
     icpPricingList: `<ul>
     <li>$230 USD every four weeks</li>
-    <li>6.75 class hours per week - total of 27 class hours in 28 days</li>
+    <li>7 class hours per week - total of 28 class hours in 28 days</li>
     <li>Conversation books included - 1 set per level </li>
     <li>One time registration fee of $100 USD</li>
     </ul>`,
     icpTitle2: "ICP SCHEDULE",
     icpMorning: "MORNING",
     icpMorningP:
-      "Monday through Wednesday from 11:45 am to 1:45 pm <br>Thursday from 11:45 am to 12:30 pm",
+      "Monday through Wednesday from 11:30am to 1:30 pm <br>Thursday from 11:30 am to 12:30pm",
     icpAfternoon: "AFTERNOON",
     icpAfternoonP:
-      "Monday through Thursday from 4:15 pm to 5:45 pm <br> Fridays from 3:00 pm to 3:45 pm",
+      "Monday through Thursday from 4:00pm to 6:00 pm <br> Fridays from 4:00pm to 5:00pm",
     icpEvening: "EVENING",
     icpEveningP:
-      "Monday through Wednesday from 8:45 pm to 10:45 pm <br> Thursday from 8:45 pm to 9:30 pm",
+      "Monday through Wednesday from 8:30pm to 10:30 pm <br> Thursday from 8:30pm to 9:30pm",
+
+    icp2DayProgram: "2-DAY PROGRAM",
+    icp2DayProgramP: `Mondays from 2:00pm to 6:00pm <br/>
+    Tuesdays from 2:00pm to 5:00pm`,
     privateTitle: "PRIVATE CLASSES",
     privateList: `<ul>
     <li><b>Classes held at school</b><br>$45 USD per class hour from mornings, afternoons, and/or evenings</li>
@@ -302,7 +310,7 @@ Contact us with any additional questions!`,
     Our mission is to provide the best English language learning experience available to promote fast comprehension and usage by employing dynamic, student-centered, second language acquisition programs, materials and methodology as well as by maintaining a staff of well-trained, highly-motivated, ESL teachers whose goal is to help their students gain confidence and achieve success speaking English.`,
     title1: "The School",
     p1:
-      "Celebrating more than 25 years of teaching English, Orlando Language School ranks at the top level in the Orlando area for our expertise, methodology and high technology facilities that allow us to teach English as a Second Language.",
+      "Celebrating more than 30 years of teaching English, Orlando Language School ranks at the top level in the Orlando area for our expertise, methodology and high technology facilities that allow us to teach English as a Second Language.",
     p2:
       "“I’m studying there and I’m getting better each day. The teachers are good. The school is great and everybody who works there are very helpful. Thanks OLS language school for the great job!”",
     firma: "JULIANA PICCINATO",
@@ -329,7 +337,7 @@ Contact us with any additional questions!`,
     p1:
       "We are also pleased to announce the installment of 70 inch 4K SHARP AQUOS SMARTBOARDS in ALL our classrooms. These are the latest generation smartboards with built-in whiteboard applications and Internet connectivity. OLS Teachers are now able to present ESL activities and grammatical descriptions digitally at the smartboard using all the latest smartboard technology and our students can even interact directly with the boards using their cell phones!",
     title2:
-      " TAKE ADVANTAGE OF OUR PROMOTION. 20% OFF TUITION FEE. CALL TODAY!!!",
+      " TAKE ADVANTAGE OF OUR PROMOTION. 10% OFF TUITION FEE. CALL TODAY!!!",
     buttonFull: "Full Program",
     contact: "Contact Us",
     p2: `Come visit our RECENTLY REMODELED facility with a spacious and luxurious student lounge!
@@ -358,39 +366,39 @@ We are pleased to announce the installation of 70-inch 4K SHARP AQUOS SMART BOAR
     t2:
       "Join our select group of students here in Orlando FL, register and start working on yourself and your future ",
     t3:
-      "Ols4u, Orlando FL, with more than 25 years of experience, high- level teachers, the best method and a modern infrastructure, all at your disposal",
+      "Ols4u, Orlando FL, with more than 30 years of experience, high- level teachers, the best method and a modern infrastructure, all at your disposal",
     t4: "JOIN US",
     p1: "WHY ORLANDO LANGUAGE SCHOOL?",
     p2: "As our method is 100% guaranteed and adapts to you.",
     p3: "The core of our mission is to help you speak English quickly.",
-    p4: "Learning for you:",
+    p4: "Learning English:",
     p5:
       "We provide you with the best learning experience through the use of dynamic, student-centered programs, materials and methodology. We recently invested to offer you one of the most modern infrastructures in Central Florida.",
     p6: "Experience:",
     p7:
-      "We have over 25 years of experience in the field and a team of top-notch English teachers. We ensure the success of your adaptation to our method. Our teachers follow a  communicative, student-centered approach to teaching and learning English. ",
+      "We have over 30 years of experience in the field and a team of top-notch English teachers. We ensure the success of your adaptation to our method. Our teachers follow a  communicative, student-centered approach to teaching and learning English. ",
     p8: "Accreditations:",
     p9:
-      "Orlando Language School is accredited by The Commission on English Language Program Accreditation (CEA) and authorized by the Student and Exchange Visitor Program (SEVP) to enroll international non-immigrant students who want to study English in Orlando.",
+      "Orlando Language School is authorized under Federal law to enroll nonimmigrant alien students. Orlando Language School is also accredited by CEA (The Commission on English Language Program Accreditation), a commission that promotes excellence in the field of English language teaching and administration.",
     p10:
       "Orlando Language Schoo is accredited by the Commission on English Language Program Accreditation, CEA, it is the only specialized accrediting agency recognized by the Secretary of Education of the United States, its objective is to promote excellence in the field of teaching and administration English programs with the help of accreditation processes around the world. ",
     p11:
-      "Do not miss this opportunity! Enroll today and take advantage of a special  (COVID19 RELIEF) 20% discount",
+      "Do not miss this opportunity! Enroll today and take advantage of a special  10% discount",
     p12: "PART TIME",
     p122: "GRAMMAR<br> (IGP)",
     p1222: "CONVERSATION<br> (ICP)",
-    p13: "$485 -20% OFF",
-    p133: "$325  -20% OFF",
-    p1333: "$230  -20% OFF",
-    p14: "$388",
-    p144: "$260",
-    p1444: "$184",
-    p15: "16.75 class hours per week",
-    p155: "6.75 class hours per week",
-    p1555: "6.75 class hours per week",
-    p16: "67.5 hours of class per month",
-    p166: "27 hours of class per month",
-    p1666: "27 hours of class per month",
+    p13: "$485 -10% OFF",
+    p133: "$325  -10% OFF",
+    p1333: "$230  -10% OFF",
+    p14: "$436.50",
+    p144: "$292",
+    p1444: "$207",
+    p15: "17 class hours per week",
+    p155: "9 class hours per week",
+    p1555: "7 class hours per week",
+    p16: "68 hours of class per month",
+    p166: "36 hours of class per month",
+    p1666: "28 hours of class per month",
     p17: "Grammar and conversation books included: 1 set per level",
     p177: "Grammar and conversation books included: 1 set per level",
     p1777: "Grammar and conversation books included: 1 set per level",
@@ -399,8 +407,8 @@ We are pleased to announce the installation of 70-inch 4K SHARP AQUOS SMART BOAR
     p20:
       "* Standard registration fee is $100 for students applying from country of origin or change of status. This fee is currently being waived for transfer in students.",
     p112: "FULL TIME",
-    p113: "$530 -20% OFF",
-    p114: "$424",
+    p113: "$530 -10% OFF",
+    p114: "$477",
     p115: "18 hours of class per week",
     p116: "72 hours of class per month",
     p117: "Grammar and conversation books included: 1 set per level",

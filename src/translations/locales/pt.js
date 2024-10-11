@@ -33,7 +33,7 @@ export default {
     title2: "MUDANÇA DE ESTADO",
     p2: `
     Siga este simples guia passo a passo para solicitar sua alteração de status ou entre em contato conosco para que possamos fornecer todas as informações necessárias. Simples e fácil. Feito isso, emitiremos toda a sua documentação e informaremos quando começar.   <br><br>
-    A Orlando Language School está autorizada pelo SEVP a matricular estudantes internacionais não-imigrantes que queiram estudar inglês em Orlando.`,
+    Orlando Linguae School sub iure foederali auctoritate est discipulos alienos non immigrantes scribere. Orlando Linguae School etiam creditur a CEA (Commissio de Lingua Latina Programma Accreditation), commissionem quae praestantiam promovet in campo docendi et administrationis linguae Latinae.`,
     title3: "PROGRAMA DE TEMPO PARCIAL",
     p3: `Este programa é focado e adaptado para estudantes que desejam completar curtos períodos de férias ou visitando temporariamente. Também disponível para cidadãos e residentes legais dos Estados Unidos.
     <br>   <br>
@@ -71,7 +71,7 @@ export default {
     fulltime: "Programa a tempo inteiro",
     ftP1: `A Orlando Language School oferece programação intensiva para estudantes internacionais de visto F1 em tempo integral, variando de iniciantes a universitários. Nosso principal programa de inglês é baseado em 10 níveis, ministrados pelos instrutores mais qualificados. Níveis avançados estão disponíveis após a conclusão do nosso programa principal. Também oferecemos cursos preparatórios para o TOEFL.`,
     ftTitle1: `CERTIFICAÇÕES DE RESCISÃO`,
-    ftP2: `Todos os alunos que concluem o programa recebem um certificado de participação no final de seus estudos, mediante solicitação. Todos os alunos são avaliados continuamente e um relatório de avaliação está disponível no final de seus estudos. `,
+    ftP2: `Todos os alunos são avaliados regularmente quanto ao progresso acadêmico ao longo do programa e recebem um certificado de conclusão e histórico escolar no final dos estudos, mediante solicitação. `,
     ftTitle2: `PREÇO`,
     ftPricingList: `<ul>
     <li>$530 USD a cada quatro semanas</li>
@@ -83,20 +83,23 @@ export default {
     ftP3: `Para todos os nossos programas, oferecemos um teste de nível gratuito para todos os alunos que chegam. De preferência, é tomado um dia antes do início do período.`,
     fTScheduleTitle: "CRONOGRAMA DE TEMPO INTEGRAL",
     ftMorning: "MANHÃ",
-    ftMorningP: "Segunda a quinta-feira das 9:00 às 13:45",
+    ftMorningP: "Segunda a quinta-feira das 9h às 13:30h",
     ftAfternoon: "TARDE",
     ftAfternoonP:
-      "De segunda a quinta-feira, das 14h às 17h45 | sexta-feira, das 12h45 às 17h",
+      "De segunda a quinta-feira, das 13:30h às 18h",
     ftEvening: "NOITE",
-    ftEveningP: "Segunda a quinta-feira das 18:00 às 22h45",
+    ftEveningP: "Segunda a quinta-feira das 18h às 22:30h",
+    ft2DayProgram: "PROGRAMA DE 2 DIAS",
+    ft2DayProgramP: `Segundas-feiras das 9h às 18h <br/>
+    Terças-feiras das 9h às 17h`,
 
     parttime: "Programas de meio período",
     ptP1: `Para todos os nossos programas, oferecemos um teste de colocação gratuito para todos os alunos que chegam. Abaixo, listamos os recursos e características do nosso programa de meio período. Este programa é focado e personalizado para estudantes que desejam concluir curtos períodos de férias, visitando temporariamente ou cidadãos e residentes legais dos Estados Unidos da América`,
 
-    ptTitle2: `PROGRAMA SUPER INTENSIVO - PARTE TEMPO`,
+    ptTitle2: `PROGRAMA SUPER INTENSIVO: PARTE TEMPO`,
     ptPricingList: `<ul>
     <li>$ 485 USD a cada quatro semanas</li>
-    <li>16,75 horas de aula por semana - 67 horas de aula em 28 dias</li>
+    <li>17 horas de aula por semana - 68 horas de aula em 28 dias</li>
     <li>Livros de gramática e conversas incluídos - 1 conjunto por nível </li>
     <li>Taxa de registro única de US $100 USD</li>
     <li><a download href="policiesPT.pdf">Políticas Escolares Alunos em Tempo Parcial (PT)</a></li>
@@ -106,46 +109,50 @@ export default {
     ptScheduleTitle: "CRONOGRAMA DE PROGRAMAS DE TEMPO PARCIAL",
     ptMorning: "MANHÃ",
     ptMorningP:
-      "De segunda a quarta-feira, das 9:00 às 13:45 h | Quinta-feira, das 9:00 às 12:30 h",
+      "De segunda a quarta-feira, das 9h às 13:30h <br/> Quinta-feira, das 9h às 12:30 h",
     ptAfternoon: "TARDE",
     ptAfternoonP:
-      "De segunda a quinta-feira, das 14h às 17h45 | sextas-feiras das 12h45 às 17h",
+      `De segunda a quarta-feira, das 13:30 às 18h <br> Quinta-feira das 13:30h às 18h`,
     ptEvening: "NOITE",
     ptEveningP:
-      "De segunda a quarta-feira, das 18:00 às 22:00 h | quintas-feiras das 18:00 às 21:30 h",
+      "De segunda a quarta-feira, das 18h às 22:30 h <br/> quintas-feiras das 18h às 21:30h",
+    pt2DayProgram: "PROGRAMA DE 2 DIAS",
+    pt2DayProgramP: `Segunda de 13:30h às 18:00 <br/> Terça-feira de 13:30h às 17:00`,
     ipgTitle1: "GRAMÁTICA INTENSIVA DO PROGRAMA (IGP)",
     ipgPricingList: `<ul>
     <li>$ 325 USD a cada quatro semanas</li>
-    <li>6.75 horas de aula por semana - total de 27 horas de aula em 28 dias</li>
+    <li>9 horas de aula por semana - total de 36 horas de aula em 28 dias</li>
     <li>Livros de gramática incluídos - 1 conjunto por nível </li>
     <li>Taxa de registro única de US $100 USD</li>
     </ul>`,
     ipgTitle2: "CRONOGRAMA DO IGP",
     ipgMorning: "MANHÃ",
-    ipgMorningP: "Segunda a quinta-feira das 9:00 às 11:30",
+    ipgMorningP: "Segunda a quinta-feira das 9h às 11:15h",
     ipgAfternoon: "TARDE",
     ipgAfternoonP:
-      "Segunda-feira - quinta-feira, das 14:00 às 16:00 horas - sextas-feiras das 12:45 às 14:45",
+      "Segunda-feira - quinta-feira, das 13:30h às 15:45h",
     ipgEvening: "NOITE",
-    ipgEveningP: "Segunda a quinta-feira das 18:00 às 20:30",
+    ipgEveningP: "Segunda a quinta-feira das 18h às 20:15h",
 
     icpTitle1: "PROGRAMA DE CONVERSAÇÃO INTENSIVO (ICP)",
     icpPricingList: `<ul>
     <li>$ 230 USD a cada quatro semanas</li>
-    <li>6.75 horas de aula por semana - total de 27 horas de aula em 28 dias</li>
+    <li>7 horas de aula por semana - total de 28 horas de aula em 28 dias</li>
     <li>Livros de conversação incluídos - 1 conjunto por nível </li>
     <li>Taxa de registro única de US $100 USD</li>
     </ul>`,
     icpTitle2: "CRONOGRAMA DO IPC",
     icpMorning: "MANHÃ",
     icpMorningP:
-      "Segunda a quarta, das 11:45 às 13:45 <br>Quinta-feira, das 11h45 às 12h30",
+      "Segunda a quarta, das 11:30h às 13:30h <br>Quinta-feira, das 11:30h às 12:30h",
     icpAfternoon: "TARDE",
     icpAfternoonP:
-      "Segunda a quinta-feira, das 16h15 às 17h45 <br> Sextas-feiras das 15:00 às 15:45",
+      "Segunda a quarta, das 16h às 18h <br> Quinta-feiras das 16h às 17h",
     icpEvening: "NOITE",
     icpEveningP:
-      "Monday through Wednesday from 8:45 pm to 10:45 pm <br>Thursday from 8:45 pm to 9:30 pm",
+      "Segunda a quarta-feira das 20:30h às 22:30h <br> Quinta-feira das 20:30h às 21:30h",
+    icp2DayProgram: "PROGRAMA DE 2 DIAS",
+    icp2DayProgramP: `Segunda-feira das 14h às 18:00h <br/> Terça-feira das 14h às 17:00h`,
     privateTitle: "AULAS PRIVADAS",
     privateList: `<ul>
     <li><b>
@@ -303,7 +310,7 @@ Os novos alunos são obrigados a fazer um teste de nivelamento para avaliar sua 
     ourMission: `<span class="title"> Nossa missão ... </span><br> <br>Nossa missão é fornecer a melhor experiência de aprendizado de inglês disponível para promover rápida compreensão e uso, empregando programas, materiais e metodologia dinâmicos, centrados no aluno, para aquisição de segundo idioma, além de manter uma equipe de funcionários bem treinados, altamente motivados, Professores de ESL cujo objetivo é ajudar seus alunos a ganhar confiança e a ter sucesso ao falar inglês. `,
     title1: "A escola",
     p1:
-      "Comemorando mais de 25 anos de ensino de inglês, a Orlando Language School ocupa o primeiro nível na área de Orlando por nossa experiência, metodologia e instalações de alta tecnologia que nos permitem ensinar inglês como segunda língua.",
+      "Comemorando mais de 30 anos de ensino de inglês, a Orlando Language School ocupa o primeiro nível na área de Orlando por nossa experiência, metodologia e instalações de alta tecnologia que nos permitem ensinar inglês como segunda língua.",
     p2:
       "'Estou estudando lá e estou melhorando a cada dia. Os professores são bons. A escola é ótima e todos que trabalham lá são muito úteis. Obrigado escola de idiomas da OLS pelo ótimo trabalho! '",
     firma: "JULIANA PICCINATO",
@@ -332,7 +339,7 @@ Os novos alunos são obrigados a fazer um teste de nivelamento para avaliar sua 
     p1:
       "Também temos o prazer de anunciar a parcela dos SMARTBOARDS SHARP AQUOS 4K de 70 polegadas em TODAS as nossas salas de aula. Estes são os smartboards de última geração com aplicativos de quadro branco integrados e conectividade à Internet. Os professores da OLS agora podem apresentar atividades de ESL e descrições gramaticais digitalmente no smartboard usando a mais recente tecnologia de smartboard e nossos alunos podem interagir diretamente com as placas usando seus telefones celulares! ",
     title2:
-      "APROVEITE A NOSSA PROMOÇÃO. 20% DE DESCONTO NA TAXA DE TUIÇÃO. LIGA HOJE!!!",
+      "APROVEITE A NOSSA PROMOÇÃO. 10% DE DESCONTO NA TAXA DE TUIÇÃO. LIGA HOJE!!!",
     buttonFull: "Programa completo",
     contact: "Entre em contato",
     p2: `Venha visitar nossas instalações RECENTEMENTE REMODELADAS com uma sala de estudantes espaçosa e luxuosa!
@@ -361,7 +368,7 @@ Temos o prazer de anunciar a instalação de placas inteligentes SHARP AQUOS 4K 
     t2:
       "Junte-se ao nosso seleto grupo de estudantes aqui em Orlando FL, cadastre-se e comece a trabalhar com você e seu futuro",
     t3:
-      "Ols4u, Orlando, FL, com mais de 25 anos de experiência, professores de alto nível, o melhor método e uma infraestrutura moderna, tudo à sua disposição",
+      "Ols4u, Orlando, FL, com mais de 30 anos de experiência, professores de alto nível, o melhor método e uma infraestrutura moderna, tudo à sua disposição",
     t4: "Junte-se a nós",
     p1: "POR QUE ESCOLA DE LÍNGUA ORLANDO?",
     p2: "Como nosso método é 100% garantido e se adapta a você.",
@@ -372,29 +379,29 @@ Temos o prazer de anunciar a instalação de placas inteligentes SHARP AQUOS 4K 
       "Nós fornecemos a melhor experiência de aprendizado através do uso de programas, materiais e metodologia dinâmicos, centrados no aluno. Recentemente, investimos para oferecer a você uma das mais modernas infraestruturas do sul da Flórida",
     p6: "Experiência:",
     p7:
-      "Temos mais de 25 anos de experiência e uma equipe de professores e instrutores de alto nível. Eles garantirão o sucesso de sua adaptação ao nosso método. Nossos professores seguem uma abordagem comunicativa e centrada no aluno para o ensino e aprendizagem de idiomas. Inglês ",
+      "Temos mais de 30 anos de experiência e uma equipe de professores e instrutores de alto nível. Eles garantirão o sucesso de sua adaptação ao nosso método. Nossos professores seguem uma abordagem comunicativa e centrada no aluno para o ensino e aprendizagem de idiomas. Inglês ",
     p8: "Acreditações:",
     p9:
       "A Orlando Language School é credenciada pela Comissão de Credenciamento de Programas de Língua Inglesa (CEA) e autorizada pelo Programa de Estudantes e Visitantes de Intercâmbio (SEVP) para matricular estudantes internacionais não-imigrantes que desejam estudar inglês em Orlando.",
     p10:
       "O Ols4u possui o credenciamento concedido pela Comissão de Credenciamento do Programa de Língua Inglesa (CEA), é a única agência de credenciamento reconhecida pela Secretaria de Educação dos Estados Unidos. Seu objetivo é promover a excelência no campo do ensino e da administração. Programas de inglês com a ajuda de processos de credenciamento em todo o mundo. ",
     p11:
-      "Não perca esta oportunidade! Inscreva-se dessa maneira e aproveite um desconto especial de 20%",
+      "Não perca esta oportunidade! Inscreva-se dessa maneira e aproveite um desconto especial de 10%",
     p12: "PART TIME",
     p122: "GRAMÁTICA<br> (IGP)",
     p1222: "CONVERSAÇÃO<br> (ICP)",
-    p13: "$ 485 -20% OFF",
-    p133: "$ 325 -20% OFF",
-    p1333: "$ 230 -20% OFF",
-    p14: "$ 388",
-    p144: "$ 260",
-    p1444: "$ 184",
-    p15: "16,75 horas de aula por semana",
-    p155: "6,75 horas de aula por semana",
-    p1555: "6,75 horas de aula por semana",
-    p16: "67,5 horas de aula por mês",
-    p166: "27 horas de aula por mês",
-    p1666: "27 horas de aula por mês",
+    p13: "$ 485 -10% OFF",
+    p133: "$ 325 -10% OFF",
+    p1333: "$ 230 -10% OFF",
+    p14: "$ 436.50",
+    p144: "$ 292",
+    p1444: "$ 207",
+    p15: "17 horas de aula por semana",
+    p155: "9 horas de aula por semana",
+    p1555: "7 horas de aula por semana",
+    p16: "68 horas de aula por mês",
+    p166: "36 horas de aula por mês",
+    p1666: "28 horas de aula por mês",
     p17: "Livros de gramática e conversação incluídos: 1 jogo por nível",
     p177: "Livros de gramática incluídos - 1 conjunto por nível",
     p1777: "Livros de conversação incluídos - 1 conjunto por nível",
@@ -403,8 +410,8 @@ Temos o prazer de anunciar a instalação de placas inteligentes SHARP AQUOS 4K 
     p20:
       "* Dependendo do caso e do perfil do aluno, a administração do OLS4U pode aplicar uma única taxa adicional de US $100, no momento da inscrição e entrega dos recibos",
     p112: "TEMPO INTEIRO",
-    p113: "$530 -20% OFF",
-    p114: "$424",
+    p113: "$530 -10% OFF",
+    p114: "$477",
     p115: "18 horas de aula por semana",
     p116: "72 horas de aula por mês",
     p117: "Livros de gramática e conversação incluídos: 1 jogo por nível",

@@ -6,69 +6,112 @@
     >
       {{ $t("discover.headline") }}
     </div>
-    <v-row>
+    <v-row class="mb-4">
+      <!-- Tarjeta 1 -->
       <v-col cols="12" md="4">
         <v-card
           data-aos="fade-left"
-          class="elevation-12"
-          :min-height="$vuetify.breakpoint.mdAndUp ? '700' : 'auto'"
+          class="elevation-12 d-flex flex-column"
+          :style="
+            $vuetify.breakpoint.mdAndUp
+              ? 'min-height: 700px; height: 100%;'
+              : ''
+          "
         >
-          <v-img height="300" src="../assets/discover1.jpeg"></v-img>
-          <v-card-title
-            class="font-weight-bold d-flex justify-center text-center accent--text"
-            v-html="$t('discover.title1')"
-          ></v-card-title>
+          <!-- Contenedor fijo para imagen y título -->
+          <div class="card-header">
+            <v-img
+              height="300"
+              src="../assets/discover1.jpeg"
+              style="object-fit: cover;"
+            ></v-img>
+            <v-card-title
+              class="font-weight-bold d-flex justify-center text-center accent--text mt-2"
+              v-html="$t('discover.title1')"
+            ></v-card-title>
+          </div>
+          <!-- Texto que crece para ocupar espacio -->
           <v-card-text
-            class="text-justify black--text"
+            class="text-justify black--text flex-grow-1"
             v-html="$t('discover.p1')"
           ></v-card-text>
-          <v-card-actions>
-            <v-btn to="/full-time" color="primary" class="mx-auto">
+          <!-- Botón de acción alineado al final -->
+          <v-card-actions class="d-flex align-center justify-center mb-4">
+            <v-btn to="/full-time" color="primary">
               {{ $t("discover.button") }}
             </v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
+
+      <!-- Tarjeta 2 -->
       <v-col cols="12" md="4">
         <v-card
           data-aos="fade-down"
-          class="elevation-12"
-          :min-height="$vuetify.breakpoint.mdAndUp ? '700' : 'auto'"
+          class="elevation-12 d-flex flex-column"
+          :style="
+            $vuetify.breakpoint.mdAndUp
+              ? 'min-height: 700px; height: 100%;'
+              : ''
+          "
         >
-          <v-img height="300" src="../assets/discover2.jpeg"></v-img>
-          <v-card-title
-            v-html="$t('discover.title2')"
-            class="my-4 font-weight-bold d-flex justify-center text-center accent--text"
-          ></v-card-title>
-
+          <!-- Contenedor fijo para imagen y título -->
+          <div class="card-header">
+            <v-img
+              height="300"
+              src="../assets/discover2.jpeg"
+              style="object-fit: cover;"
+            ></v-img>
+            <v-card-title
+              class="font-weight-bold d-flex justify-center text-center accent--text mt-2"
+              v-html="$t('discover.title2')"
+            ></v-card-title>
+          </div>
+          <!-- Texto que crece para ocupar espacio -->
           <v-card-text
-            class="text-justify black--text"
+            class="text-justify black--text flex-grow-1"
             v-html="$t('discover.p2')"
           ></v-card-text>
-          <v-card-actions>
-            <v-btn to="/visas" color="primary" class="mx-auto">
+          <!-- Botón de acción alineado al final -->
+          <v-card-actions class="d-flex align-center justify-center mb-4">
+            <v-btn to="/visas" color="primary">
               {{ $t("discover.button") }}
             </v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
+
+      <!-- Tarjeta 3 -->
       <v-col cols="12" md="4">
         <v-card
           data-aos="fade-right"
-          class="elevation-12"
-          :min-height="$vuetify.breakpoint.mdAndUp ? '700' : 'auto'"
+          class="elevation-12 d-flex flex-column"
+          :style="
+            $vuetify.breakpoint.mdAndUp
+              ? 'min-height: 700px; height: 100%;'
+              : ''
+          "
         >
-          <v-img height="300" src="../assets/discover3.jpeg"></v-img>
-          <v-card-title
-            v-html="$t('discover.title3')"
-            class="font-weight-bold d-flex justify-center text-center accent--text"
-          ></v-card-title>
+          <!-- Contenedor fijo para imagen y título -->
+          <div class="card-header">
+            <v-img
+              height="300"
+              src="../assets/discover3.jpeg"
+              style="object-fit: cover;"
+            ></v-img>
+            <v-card-title
+              class="font-weight-bold d-flex justify-center text-center accent--text mt-2"
+              v-html="$t('discover.title3')"
+            ></v-card-title>
+          </div>
+          <!-- Texto que crece para ocupar espacio -->
           <v-card-text
-            class="text-justify black--text"
+            class="text-justify black--text flex-grow-1"
             v-html="$t('discover.p3')"
           ></v-card-text>
-          <v-card-actions class>
-            <v-btn to="/part-time" color="primary" class="mx-auto">
+          <!-- Botón de acción alineado al final -->
+          <v-card-actions class="d-flex align-center justify-center mb-4">
+            <v-btn to="/part-time" color="primary">
               {{ $t("discover.button") }}
             </v-btn>
           </v-card-actions>
@@ -83,8 +126,8 @@ export default {
   computed: {
     learnMore() {
       return { template: `<router-link to="/about">about</router-link>` };
-    }
-  }
+    },
+  },
 };
 </script>
 

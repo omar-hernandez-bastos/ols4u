@@ -1,10 +1,5 @@
 <template>
-  <v-container
-    fluid
-    mx-0
-    pa-0
-    style=" margin-top:64px; "
-  >
+  <v-container fluid mx-0 pa-0 style=" margin-top:64px; ">
     <navigation-bar></navigation-bar>
     <v-container>
       <h1
@@ -18,10 +13,7 @@
         class="work-sans text-justify"
         v-html="$t('programs.ftP1')"
       ></p>
-      <v-row
-        justify="center"
-        align="center"
-      >
+      <v-row justify="center" align="center">
         <v-col
           data-aos="fade-left"
           cols="12"
@@ -32,10 +24,7 @@
           <h2 class="work-sans font-weight-bold accent--text">
             {{ $t("programs.ftTitle1") }}
           </h2>
-          <p
-            class="work-sans text-justify"
-            v-html="$t('programs.ftP2')"
-          ></p>
+          <p class="work-sans text-justify" v-html="$t('programs.ftP2')"></p>
           <h2 class="work-sans font-weight-bold accent--text">
             {{ $t("programs.ftTitle2") }}
           </h2>
@@ -46,10 +35,7 @@
           <h2 class="work-sans font-weight-bold accent--text">
             {{ $t("programs.ftTitle3") }}
           </h2>
-          <p
-            class="work-sans text-justify"
-            v-html="$t('programs.ftP3')"
-          ></p>
+          <p class="work-sans text-justify" v-html="$t('programs.ftP3')"></p>
         </v-col>
         <v-col
           data-aos="fade-right"
@@ -68,29 +54,21 @@
             {{ $t("programs.fTScheduleTitle") }}
           </h2>
           <h3 class="work-sans accent--text">{{ $t("programs.ftMorning") }}</h3>
-          <p
-            class="work-sans"
-            v-html="$t('programs.ftMorningP')"
-          ></p>
+          <p class="work-sans" v-html="$t('programs.ftMorningP')"></p>
           <h3 class="work-sans accent--text">
             {{ $t("programs.ftAfternoon") }}
           </h3>
-          <p
-            class="work-sans"
-            v-html="$t('programs.ftAfternoonP')"
-          ></p>
+          <p class="work-sans" v-html="$t('programs.ftAfternoonP')"></p>
           <h3 class="work-sans accent--text">{{ $t("programs.ftEvening") }}</h3>
-          <p
-            class="work-sans"
-            v-html="$t('programs.ftEveningP')"
-          ></p>
+          <p class="work-sans" v-html="$t('programs.ftEveningP')"></p>
+          <h3 class="work-sans accent--text">
+            {{ $t("programs.ft2DayProgram") }}
+          </h3>
+          <p class="work-sans" v-html="$t('programs.ft2DayProgramP')"></p>
         </v-col>
       </v-row>
       <v-divider></v-divider>
-      <v-row
-        align="center"
-        justify="center"
-      >
+      <v-row align="center" justify="center">
         <v-col
           data-aos="fade-left"
           align="center"
@@ -153,7 +131,7 @@ import Footer from "../components/layout/Footer";
 export default {
   components: {
     NavigationBar,
-    Footer
-  }
+    Footer,
+  },
 };
 </script>
